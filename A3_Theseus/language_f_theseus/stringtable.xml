@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3Theseus">
+	<Package name="Language_Theseus">
+		<Container name="Data_F">
+			<Container name="ContentLicensing">
+                <Key ID="STR_A3_T_CfgMods_Theseus_overview0">
+                    <Original>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Original>
+                    <Chinese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Chinese>
+                    <French>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</French>
+                    <Spanish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Spanish>
+                    <Italian>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Italian>
+                    <Polish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Polish>
+                    <Russian>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Russian>
+                    <German>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</German>
+                    <Czech>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Czech>
+                    <English>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</English>
+                    <Portuguese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Portuguese>
+                    <Korean>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Korean>
+                    <Chinesesimp>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Chinesesimp>
+                    <Japanese>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Japanese>
+                    <Turkish>Arma 3 Aegis aims to expand on the vanilla 2035 setting directly with a variety of new weapons, factions, vehicles, and equipment. Many items have been readded from the pre-Alpha, with a focus on bringing them up to the same level of quality and consistency as other vanilla items. Aegis also enhances the vanilla sandbox by improving vanilla faction's loadouts and visuals.</Turkish>
+                </Key>
+				<Key ID="STR_A3_T_CfgMods_Theseus_name0">
+                    <Original>Arma 3 Theseus</Original>
+                    <Chinese>Arma 3 Theseus</Chinese>
+                    <French>Arma 3 Theseus</French>
+                    <Spanish>Arma 3 Theseus</Spanish>
+                    <Italian>Arma 3 Theseus</Italian>
+                    <Polish>Arma 3 Theseus</Polish>
+                    <Russian>Arma 3 Theseus</Russian>
+                    <German>Arma 3 Theseus</German>
+                    <Czech>Arma 3 Theseus</Czech>
+                    <English>Arma 3 Theseus</English>
+                    <Portuguese>Arma 3 Theseus</Portuguese>
+                    <Korean>Arma 3 Theseus</Korean>
+                    <Chinesesimp>Arma 3 Theseus</Chinesesimp>
+                    <Japanese>Arma 3 Theseus</Japanese>
+                    <Turkish>Arma 3 Theseus</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgMods_Theseus_name0">
+					<Original>Theseus</Original>
+					<Chinese>Theseus</Chinese>
+					<French>Theseus</French>
+					<Spanish>Theseus</Spanish>
+					<Italian>Theseus</Italian>
+					<Polish>Theseus</Polish>
+					<Russian>Theseus</Russian>
+					<German>Theseus</German>
+					<Czech>Theseus</Czech>
+					<English>Theseus</English>
+					<Portuguese>Theseus</Portuguese>
+					<Korean>Theseus</Korean>
+					<Chinesesimp>Theseus</Chinesesimp>
+					<Japanese>Theseus</Japanese>
+					<Turkish>Theseus</Turkish>
+				</Key>
+			</Container>
+			<Container name="Faction_Classes">
+				<Key ID="STR_A3_T_CfgFactionClasses_BLU_N_F0">
+					<Original>NAAF</Original>
+					<Chinese>NAAF</Chinese>
+					<French>NAAF</French>
+					<Spanish>NAAF</Spanish>
+					<Italian>NAAF</Italian>
+					<Polish>NAAF</Polish>
+					<Russian>NAAF</Russian>
+					<German>NAAF</German>
+					<Czech>NAAF</Czech>
+					<English>NAAF</English>
+					<Portuguese>NAAF</Portuguese>
+					<Korean>NAAF</Korean>
+					<Chinesesimp>NAAF</Chinesesimp>
+					<Japanese>NAAF</Japanese>
+					<Turkish>NAAF</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgFactionClasses_OPF_B_F0">
+					<Original>Bandits</Original>
+					<Chinese>Bandits</Chinese>
+					<French>Bandits</French>
+					<Spanish>Bandits</Spanish>
+					<Italian>Bandits</Italian>
+					<Polish>Bandits</Polish>
+					<Russian>Bandits</Russian>
+					<German>Bandits</German>
+					<Czech>Bandits</Czech>
+					<English>Bandits</English>
+					<Portuguese>Bandits</Portuguese>
+					<Korean>Bandits</Korean>
+					<Chinesesimp>Bandits</Chinesesimp>
+					<Japanese>Bandits</Japanese>
+					<Turkish>Bandits</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgFactionClasses_OPF_R_F0">
+					<Original>Remnants</Original>
+					<Chinese>Remnants</Chinese>
+					<French>Remnants</French>
+					<Spanish>Remnants</Spanish>
+					<Italian>Remnants</Italian>
+					<Polish>Remnants</Polish>
+					<Russian>Remnants</Russian>
+					<German>Remnants</German>
+					<Czech>Remnants</Czech>
+					<English>Remnants</English>
+					<Portuguese>Remnants</Portuguese>
+					<Korean>Remnants</Korean>
+					<Chinesesimp>Remnants</Chinesesimp>
+					<Japanese>Remnants</Japanese>
+					<Turkish>Remnants</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="Characters_F">
+            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_Pistol_F0">
+                <Original>Bandit (Pistol)</Original>
+                <Chinese>Bandit (Pistol)</Chinese>
+                <French>Bandit (Pistol)</French>
+                <Spanish>Bandit (Pistol)</Spanish>
+                <Italian>Bandit (Pistol)</Italian>
+                <Polish>Bandit (Pistol)</Polish>
+                <Russian>Bandit (Pistol)</Russian>
+                <German>Bandit (Pistol)</German>
+                <Czech>Bandit (Pistol)</Czech>
+                <English>Bandit (Pistol)</English>
+                <Portuguese>Bandit (Pistol)</Portuguese>
+                <Korean>Bandit (Pistol)</Korean>
+                <Chinesesimp>Bandit (Pistol)</Chinesesimp>
+                <Japanese>Bandit (Pistol)</Japanese>
+                <Turkish>Bandit (Pistol)</Turkish>
+            </Key>
+            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_Rifle_F0">
+                <Original>Bandit (Rifle)</Original>
+                <Chinese>Bandit (Rifle)</Chinese>
+                <French>Bandit (Rifle)</French>
+                <Spanish>Bandit (Rifle)</Spanish>
+                <Italian>Bandit (Rifle)</Italian>
+                <Polish>Bandit (Rifle)</Polish>
+                <Russian>Bandit (Rifle)</Russian>
+                <German>Bandit (Rifle)</German>
+                <Czech>Bandit (Rifle)</Czech>
+                <English>Bandit (Rifle)</English>
+                <Portuguese>Bandit (Rifle)</Portuguese>
+                <Korean>Bandit (Rifle)</Korean>
+                <Chinesesimp>Bandit (Rifle)</Chinesesimp>
+                <Japanese>Bandit (Rifle)</Japanese>
+                <Turkish>Bandit (Rifle)</Turkish>
+            </Key>
+            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_SMG_F0">
+                <Original>Bandit (SMG)</Original>
+                <Chinese>Bandit (SMG)</Chinese>
+                <French>Bandit (SMG)</French>
+                <Spanish>Bandit (SMG)</Spanish>
+                <Italian>Bandit (SMG)</Italian>
+                <Polish>Bandit (SMG)</Polish>
+                <Russian>Bandit (SMG)</Russian>
+                <German>Bandit (SMG)</German>
+                <Czech>Bandit (SMG)</Czech>
+                <English>Bandit (SMG)</English>
+                <Portuguese>Bandit (SMG)</Portuguese>
+                <Korean>Bandit (SMG)</Korean>
+                <Chinesesimp>Bandit (SMG)</Chinesesimp>
+                <Japanese>Bandit (SMG)</Japanese>
+                <Turkish>Bandit (SMG)</Turkish>
+            </Key>
+            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_SG_F0">
+                <Original>Bandit (Shotgun)</Original>
+                <Chinese>Bandit (Shotgun)</Chinese>
+                <French>Bandit (Shotgun)</French>
+                <Spanish>Bandit (Shotgun)</Spanish>
+                <Italian>Bandit (Shotgun)</Italian>
+                <Polish>Bandit (Shotgun)</Polish>
+                <Russian>Bandit (Shotgun)</Russian>
+                <German>Bandit (Shotgun)</German>
+                <Czech>Bandit (Shotgun)</Czech>
+                <English>Bandit (Shotgun)</English>
+                <Portuguese>Bandit (Shotgun)</Portuguese>
+                <Korean>Bandit (Shotgun)</Korean>
+                <Chinesesimp>Bandit (Shotgun)</Chinesesimp>
+                <Japanese>Bandit (Shotgun)</Japanese>
+                <Turkish>Bandit (Shotgun)</Turkish>
+            </Key>
+			<Container name="Groups">
+				<Key ID="STR_A3_T_CfgGroups_East_OPF_B_F_Infantry_O_B_BanditGang0">
+					<Original>Bandit Patrol</Original>
+					<Chinese>Bandit Patrol</Chinese>
+					<French>Bandit Patrol</French>
+					<Spanish>Bandit Patrol</Spanish>
+					<Italian>Bandit Patrol</Italian>
+					<Polish>Bandit Patrol</Polish>
+					<Russian>Bandit Patrol</Russian>
+					<German>Bandit Patrol</German>
+					<Czech>Bandit Patrol</Czech>
+					<English>Bandit Patrol</English>
+					<Portuguese>Bandit Patrol</Portuguese>
+					<Korean>Bandit Patrol</Korean>
+					<Chinesesimp>Bandit Patrol</Chinesesimp>
+					<Japanese>Bandit Patrol</Japanese>
+					<Turkish>Bandit Patrol</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgGroups_East_OPF_B_F_Infantry_O_B_CriminalGang0">
+					<Original>Bandit Gang</Original>
+					<Chinese>Bandit Gang</Chinese>
+					<French>Bandit Gang</French>
+					<Spanish>Bandit Gang</Spanish>
+					<Italian>Bandit Gang</Italian>
+					<Polish>Bandit Gang</Polish>
+					<Russian>Bandit Gang</Russian>
+					<German>Bandit Gang</German>
+					<Czech>Bandit Gang</Czech>
+					<English>Bandit Gang</English>
+					<Portuguese>Bandit Gang</Portuguese>
+					<Korean>Bandit Gang</Korean>
+					<Chinesesimp>Bandit Gang</Chinesesimp>
+					<Japanese>Bandit Gang</Japanese>
+					<Turkish>Bandit Gang</Turkish>
+				</Key>
+			</Container>
+			<Container name="Uniforms">
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_dgtl_F0">
+					<Original>Combat Fatigues [NAAF]</Original>
+					<Chinese>Combat Fatigues [NAAF]</Chinese>
+					<French>Combat Fatigues [NAAF]</French>
+					<Spanish>Combat Fatigues [NAAF]</Spanish>
+					<Italian>Combat Fatigues [NAAF]</Italian>
+					<Polish>Combat Fatigues [NAAF]</Polish>
+					<Russian>Combat Fatigues [NAAF]</Russian>
+					<German>Combat Fatigues [NAAF]</German>
+					<Czech>Combat Fatigues [NAAF]</Czech>
+					<English>Combat Fatigues [NAAF]</English>
+					<Portuguese>Combat Fatigues [NAAF]</Portuguese>
+					<Korean>Combat Fatigues [NAAF]</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF]</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF]</Japanese>
+					<Turkish>Combat Fatigues [NAAF]</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F0">
+					<Original>Combat Fatigues [NAAF] (Rolled-up)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Rolled-up)</Chinese>
+					<French>Combat Fatigues [NAAF] (Rolled-up)</French>
+					<Spanish>Combat Fatigues [NAAF] (Rolled-up)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Rolled-up)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Rolled-up)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Rolled-up)</Russian>
+					<German>Combat Fatigues [NAAF] (Rolled-up)</German>
+					<Czech>Combat Fatigues [NAAF] (Rolled-up)</Czech>
+					<English>Combat Fatigues [NAAF] (Rolled-up)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Rolled-up)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Rolled-up)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Rolled-up)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Rolled-up)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Rolled-up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Officer_dgtl_F0">
+					<Original>Combat Fatigues [NAAF] (Officer)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Officer)</Chinese>
+					<French>Combat Fatigues [NAAF] (Officer)</French>
+					<Spanish>Combat Fatigues [NAAF] (Officer)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Officer)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Officer)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Officer)</Russian>
+					<German>Combat Fatigues [NAAF] (Officer)</German>
+					<Czech>Combat Fatigues [NAAF] (Officer)</Czech>
+					<English>Combat Fatigues [NAAF] (Officer)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Officer)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Officer)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Officer)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Officer)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Officer)</Turkish>
+				</Key>
+			</Container>
+		</Container>
+		<Container name="UI_F">
+            <Key ID="STR_A3_T_CfgMarkers_flag_Remnants">
+                <Original>Remnants</Original>
+                <Chinese>Remnants</Chinese>
+                <French>Remnants</French>
+                <Spanish>Remnants</Spanish>
+                <Italian>Remnants</Italian>
+                <Polish>Remnants</Polish>
+                <Russian>Remnants</Russian>
+                <German>Remnants</German>
+                <Czech>Remnants</Czech>
+                <English>Remnants</English>
+                <Portuguese>Remnants</Portuguese>
+                <Korean>Remnants</Korean>
+                <Chinesesimp>Remnants</Chinesesimp>
+                <Japanese>Remnants</Japanese>
+                <Turkish>Remnants</Turkish>
+            </Key>
+            <Key ID="STR_A3_T_CfgMarkers_flag_Bandits">
+                <Original>Bandits</Original>
+                <Chinese>Bandits</Chinese>
+                <French>Bandits</French>
+                <Spanish>Bandits</Spanish>
+                <Italian>Bandits</Italian>
+                <Polish>Bandits</Polish>
+                <Russian>Bandits</Russian>
+                <German>Bandits</German>
+                <Czech>Bandits</Czech>
+                <English>Bandits</English>
+                <Portuguese>Bandits</Portuguese>
+                <Korean>Bandits</Korean>
+                <Chinesesimp>Bandits</Chinesesimp>
+                <Japanese>Bandits</Japanese>
+                <Turkish>Bandits</Turkish>
+            </Key>
+		</Container>
+		<Container name="Structures_F">
+			<Container name="Flags">
+				<Key ID="STR_A3_T_CfgVehicles_Flag_Remnants_F0">
+					<Original>Flag (Remnants)</Original>
+					<Chinese>Flag (Remnants)</Chinese>
+					<French>Flag (Remnants)</French>
+					<Spanish>Flag (Remnants)</Spanish>
+					<Italian>Flag (Remnants)</Italian>
+					<Polish>Flag (Remnants)</Polish>
+					<Russian>Flag (Remnants)</Russian>
+					<German>Flag (Remnants)</German>
+					<Czech>Flag (Remnants)</Czech>
+					<English>Flag (Remnants)</English>
+					<Portuguese>Flag (Remnants)</Portuguese>
+					<Korean>Flag (Remnants)</Korean>
+					<Chinesesimp>Flag (Remnants)</Chinesesimp>
+					<Japanese>Flag (Remnants)</Japanese>
+					<Turkish>Flag (Remnants)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgVehicles_Flag_Bandits_F0">
+					<Original>Flag (Bandits)</Original>
+					<Chinese>Flag (Bandits)</Chinese>
+					<French>Flag (Bandits)</French>
+					<Spanish>Flag (Bandits)</Spanish>
+					<Italian>Flag (Bandits)</Italian>
+					<Polish>Flag (Bandits)</Polish>
+					<Russian>Flag (Bandits)</Russian>
+					<German>Flag (Bandits)</German>
+					<Czech>Flag (Bandits)</Czech>
+					<English>Flag (Bandits)</English>
+					<Portuguese>Flag (Bandits)</Portuguese>
+					<Korean>Flag (Bandits)</Korean>
+					<Chinesesimp>Flag (Bandits)</Chinesesimp>
+					<Japanese>Flag (Bandits)</Japanese>
+					<Turkish>Flag (Bandits)</Turkish>
+				</Key>
+			</Container>
+		</Container>
+	</Package>
+</Project>
