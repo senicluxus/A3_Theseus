@@ -323,6 +323,23 @@
 					<Japanese>Flag (Remnants)</Japanese>
 					<Turkish>Flag (Remnants)</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgVehicles_Flag_NAAF_F0">
+					<Original>Flag (NAAF)</Original>
+					<Chinese>Flag (NAAF)</Chinese>
+					<French>Flag (NAAF)</French>
+					<Spanish>Flag (NAAF)</Spanish>
+					<Italian>Flag (NAAF)</Italian>
+					<Polish>Flag (NAAF)</Polish>
+					<Russian>Flag (NAAF)</Russian>
+					<German>Flag (NAAF)</German>
+					<Czech>Flag (NAAF)</Czech>
+					<English>Flag (NAAF)</English>
+					<Portuguese>Flag (NAAF)</Portuguese>
+					<Korean>Flag (NAAF)</Korean>
+					<Chinesesimp>Flag (NAAF)</Chinesesimp>
+					<Japanese>Flag (NAAF)</Japanese>
+					<Turkish>Flag (NAAF)</Turkish>
+				</Key>
 				<Key ID="STR_A3_T_CfgVehicles_Flag_Bandits_F0">
 					<Original>Flag (Bandits)</Original>
 					<Chinese>Flag (Bandits)</Chinese>
