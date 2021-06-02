@@ -49,7 +49,7 @@ class CfgORBAT
                     id = 3;
                     type = MechanizedInfantry;
 
-                    class alpha1stplatoon
+                    class charlie1stplatoon
                     {
                         id = 1;
                         text = "%1 %3";
@@ -60,16 +60,16 @@ class CfgORBAT
                         commander = "GreekMen";
                         commanderRank = Lieutenant;
                     }
-                    class alpha2ndplatoon: alpha1stplatoon
+                    class charlie2ndplatoon: charlie1stplatoon
                     {
                         id = 2;
                     }
-                    class alpha3rdplatoon: alpha2ndplatoon
+                    class charlie3rdplatoon: charlie2ndplatoon
                     {
                         id = 3;
                         type = Armored;
                     }
-                    class alpha4thplatoon: alpha3rdplatoon
+                    class charlie4thplatoon: charlie3rdplatoon
                     {
                         id = 4;
                     }
