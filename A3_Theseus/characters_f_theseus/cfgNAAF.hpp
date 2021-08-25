@@ -155,13 +155,13 @@ class Theseus_B_N_Crew_F: Theseus_B_N_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
         HandGrenade,
         SmokeShell
 	};
@@ -389,12 +389,12 @@ class Theseus_B_N_Helipilot_F: Theseus_B_N_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
         SmokeShellYellow
 	};
     linkedItems[] =
@@ -444,12 +444,12 @@ class Theseus_B_N_Helicrew_F: Theseus_B_N_Helipilot_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
         SmokeShellYellow
 	};
     linkedItems[] =
