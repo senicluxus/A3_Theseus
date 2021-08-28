@@ -920,3 +920,81 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
         0.1     // Air
     };
 };
+class Theseus_B_N_Story_Angelos_Lara: Theseus_B_N_Soldier_TL_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_TL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Angelos Lara";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	weapons[] =
+	{
+		arifle_Mk20_GL_MRCO_pointer_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		arifle_Mk20_GL_MRCO_pointer_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierIA2_oli,
+		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
+		G_Squares,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA2_oli,
+		H_I_Helmet_canvas_Green,
+		Goggles_grn_F,
+		G_Squares,
+		DefaultManLinkedItems
+	};
+
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Angelos_Lara""";
+		};
+};
+class Theseus_B_N_Story_Dimitrious_Sallokis: Theseus_B_N_Helipilot_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Helipilot_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Dimitrious Sallokis";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	weapons[] =
+	{
+		arifle_TRG20_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_TRG20_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_3(30Rnd_556x45_Stanag),
+        SmokeShellYellow
+	};
+	respawnMagazines[] =
+	{
+		mag_3(30Rnd_556x45_Stanag),
+        SmokeShellYellow
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Dimitrious_Sallokis""";
+		};
+};

@@ -1,7 +1,7 @@
 /* NAAF */
 class Theseus_B_N_LSV_01_armed_F: LSV_01_armed_base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -23,29 +23,29 @@ class Theseus_B_N_LSV_01_armed_F: LSV_01_armed_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,16);
+		mag_xx(30Rnd_556x45_Stanag,8);
         mag_xx(200Rnd_65x39_cased_Box,3);
-        mag_xx(HandGrenade,10);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-        mag_xx(16Rnd_9x21_Mag,12);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellGreen,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellBlue,4);
+        mag_xx(HandGrenade,2);
+        mag_xx(1Rnd_HE_Grenade_shell,2);
+        mag_xx(1Rnd_Smoke_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeGreen_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeOrange_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeBlue_Grenade_shell,41);
+        mag_xx(16Rnd_9x21_Mag,4);
+        mag_xx(SmokeShell,1);
+        mag_xx(SmokeShellGreen,1);
+        mag_xx(SmokeShellOrange,1);
+        mag_xx(SmokeShellBlue,1);
         mag_xx(MRAWS_HEAT55_F,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(aarifle_TRG21_F,2);
+		weap_xx(arifle_TRG21_F,2);
 	};
 };
 class Theseus_B_N_LSV_01_AT_F: LSV_01_AT_base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -69,24 +69,24 @@ class Theseus_B_N_LSV_01_AT_F: LSV_01_AT_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,16);
+		mag_xx(30Rnd_556x45_Stanag,8);
         mag_xx(200Rnd_65x39_cased_Box,3);
-        mag_xx(HandGrenade,10);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-        mag_xx(16Rnd_9x21_Mag,12);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellGreen,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellBlue,4);
+        mag_xx(HandGrenade,2);
+        mag_xx(1Rnd_HE_Grenade_shell,2);
+        mag_xx(1Rnd_Smoke_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeGreen_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeOrange_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeBlue_Grenade_shell,41);
+        mag_xx(16Rnd_9x21_Mag,4);
+        mag_xx(SmokeShell,1);
+        mag_xx(SmokeShellGreen,1);
+        mag_xx(SmokeShellOrange,1);
+        mag_xx(SmokeShellBlue,1);
         mag_xx(MRAWS_HEAT55_F,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(aarifle_TRG21_F,2);
+		weap_xx(arifle_TRG21_F,2);
 	};
 	class TextureSources: TextureSources
 	{
@@ -106,7 +106,7 @@ class Theseus_B_N_LSV_01_AT_F: LSV_01_AT_base_F
 };
 class Theseus_B_N_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -128,29 +128,29 @@ class Theseus_B_N_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,16);
+		mag_xx(30Rnd_556x45_Stanag,8);
         mag_xx(200Rnd_65x39_cased_Box,3);
-        mag_xx(HandGrenade,10);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-        mag_xx(16Rnd_9x21_Mag,12);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellGreen,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellBlue,4);
+        mag_xx(HandGrenade,2);
+        mag_xx(1Rnd_HE_Grenade_shell,2);
+        mag_xx(1Rnd_Smoke_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeGreen_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeOrange_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeBlue_Grenade_shell,41);
+        mag_xx(16Rnd_9x21_Mag,4);
+        mag_xx(SmokeShell,1);
+        mag_xx(SmokeShellGreen,1);
+        mag_xx(SmokeShellOrange,1);
+        mag_xx(SmokeShellBlue,1);
         mag_xx(MRAWS_HEAT55_F,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(aarifle_TRG21_F,2);
+		weap_xx(arifle_TRG21_F,2);
 	};
 };
 class Theseus_B_N_LSV_01_light_F: LSV_01_light_base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_light_F.jpg";
 	scope = public;
 	scopeCurator = public;
@@ -172,23 +172,23 @@ class Theseus_B_N_LSV_01_light_F: LSV_01_light_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_Stanag,16);
+		mag_xx(30Rnd_556x45_Stanag,8);
         mag_xx(200Rnd_65x39_cased_Box,3);
-        mag_xx(HandGrenade,10);
-        mag_xx(1Rnd_HE_Grenade_shell,10);
-        mag_xx(1Rnd_Smoke_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeGreen_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeOrange_Grenade_shell,4);
-        mag_xx(1Rnd_SmokeBlue_Grenade_shell,4);
-        mag_xx(16Rnd_9x21_Mag,12);
-        mag_xx(SmokeShell,4);
-        mag_xx(SmokeShellGreen,4);
-        mag_xx(SmokeShellOrange,4);
-        mag_xx(SmokeShellBlue,4);
+        mag_xx(HandGrenade,2);
+        mag_xx(1Rnd_HE_Grenade_shell,2);
+        mag_xx(1Rnd_Smoke_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeGreen_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeOrange_Grenade_shell,1);
+        mag_xx(1Rnd_SmokeBlue_Grenade_shell,41);
+        mag_xx(16Rnd_9x21_Mag,4);
+        mag_xx(SmokeShell,1);
+        mag_xx(SmokeShellGreen,1);
+        mag_xx(SmokeShellOrange,1);
+        mag_xx(SmokeShellBlue,1);
         mag_xx(MRAWS_HEAT55_F,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(aarifle_TRG21_F,2);
+		weap_xx(arifle_TRG21_F,2);
 	};
 };
