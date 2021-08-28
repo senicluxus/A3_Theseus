@@ -2,7 +2,7 @@
 class Theseus_B_N_LSV_01_armed_F: LSV_01_armed_base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_armed_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -58,7 +58,7 @@ class Theseus_B_N_LSV_01_armed_F: LSV_01_armed_base_F
 class Theseus_B_N_LSV_01_AT_F: LSV_01_AT_base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_AT_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -118,12 +118,12 @@ class Theseus_B_N_LSV_01_AT_F: LSV_01_AT_base_F
 class Theseus_B_N_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_unarmed_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
 	faction = Theseus_BLU_N_F;
-	crew = Theseus_B_N;
+	crew = Theseus_B_N_Soldier_F;
 	typicalCargo[] = {Theseus_B_N_Soldier_F};
 	textureList[] =
 	{
@@ -174,7 +174,7 @@ class Theseus_B_N_LSV_01_unarmed_F: LSV_01_unarmed_base_F
 class Theseus_B_N_LSV_01_light_F: LSV_01_light_base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_light_F.jpg";
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\B_L_LSV_01_light_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
