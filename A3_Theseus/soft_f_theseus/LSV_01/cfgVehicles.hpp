@@ -15,6 +15,4 @@ class CfgVehicles
 	class LSV_01_AT_base_F: LSV_01_base_F{};
 	// Arma 3 Theseus
 	#include "cfgNAAF.hpp"               // Legionnaires
-    // Deprecated classes
-    #include "deprecated.hpp"
 };
