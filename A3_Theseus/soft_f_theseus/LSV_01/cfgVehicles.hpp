@@ -8,7 +8,7 @@ class CfgVehicles
 		{
 			class Indep
 			{
-				materials[] =
+				textures[] =
             	{
 				"\A3_Theseus\Soft_F_Theseus\LSV_01\Data\LSV_01_NAAF_01_CO.paa",
 				"\A3_Theseus\Soft_F_Theseus\LSV_01\Data\LSV_01_NAAF_02_CO.paa",
@@ -27,7 +27,7 @@ class CfgVehicles
 		{
 			class Indep
 			{
-				materials[] =
+				textures[] =
             	{
 				"\A3_Theseus\Soft_F_Theseus\LSV_01\Data\LSV_01_NAAF_01_CO.paa",
 				"\A3_Theseus\Soft_F_Theseus\LSV_01\Data\LSV_01_NAAF_02_CO.paa",
