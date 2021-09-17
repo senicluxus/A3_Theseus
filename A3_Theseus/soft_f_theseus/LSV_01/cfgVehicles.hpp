@@ -4,7 +4,7 @@ class CfgVehicles
 	class Car_F;
 	class LSV_01_base_F: Car_F
 	{
-		class TextureSources
+		class TextureSources{};
     };
 	class LSV_01_armed_base_F: LSV_01_base_F{};
 	class LSV_01_unarmed_base_F: LSV_01_base_F{};
