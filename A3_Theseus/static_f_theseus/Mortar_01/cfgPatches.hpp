@@ -8,7 +8,8 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgNAAF.hpp" */
-            Theseus_B_N_Mortar_01_F
+            Theseus_B_N_Mortar_01_F,
+			Theseus_O_R_Mortar_01_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -9,7 +9,11 @@ class CfgPatches
         {
             /* From "cfgNAAF.hpp" */
             Theseus_B_N_HMG_02_F,
-            Theseus_B_N_HMG_02_high_F
+            Theseus_B_N_HMG_02_high_F,
+
+			/* From "cfgRemnants.hpp" */
+			Theseus_O_R_HMG_02_F,
+			Theseus_O_R_HMG_02_high_F
         };
 		weapons[] = {/* Automated */};
 	};

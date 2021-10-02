@@ -10,6 +10,7 @@ class CfgVehicles
 
     /* Bases */
 	class B_G_Mortar_01_F;
+	class O_Mortar_01_F;
 
 	/* Factions */
     #include "cfgNAAF.hpp"
