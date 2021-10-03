@@ -14,4 +14,5 @@ class CfgVehicles
 
 	/* Factions */
     #include "cfgNAAF.hpp"
+	#include "cfgRemnants.hpp"
 };

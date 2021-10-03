@@ -6,4 +6,5 @@ class CfgVehicles
 	class O_HMG_02_F;
 	class O_HMG_02_high_F;
     #include "cfgNAAF.hpp"
+	#include "cfgRemnants.hpp"
 };
