@@ -6,7 +6,7 @@ class Theseus_O_R_Mortar_01_F: O_Mortar_01_F
 	_generalMacro = O_Mortar_01_F;
 	scope = public;
 	scopeCurator = public;
-	side = TWest;
+	side = TEast;
 	faction = Theseus_OPF_R_F;
 	crew = Theseus_O_R_Soldier_1_F;
 };
