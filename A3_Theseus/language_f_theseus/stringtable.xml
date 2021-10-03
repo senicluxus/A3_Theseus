@@ -267,6 +267,42 @@
 					<Turkish>Combat Fatigues [NAAF] (Officer)</Turkish>
 				</Key>
 			</Container>
+			<Container name="Vests">
+				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrierL_NAAF_grn_F0">
+					<Original>Carrier Lite [NAAF] (Green)</Original>
+					<Chinese>Carrier Lite [NAAF] (Green)</Chinese>
+					<French>Carrier Lite [NAAF] (Green)</French>
+					<Spanish>Carrier Lite [NAAF] (Green)</Spanish>
+					<Italian>Carrier Lite [NAAF] (Green)</Italian>
+					<Polish>Carrier Lite [NAAF] (Green)</Polish>
+					<Russian>Carrier Lite [NAAF] (Green)</Russian>
+					<German>Carrier Lite [NAAF] (Green)</German>
+					<Czech>Carrier Lite [NAAF] (Green)</Czech>
+					<English>Carrier Lite [NAAF] (Green)</English>
+					<Portuguese>Carrier Lite [NAAF] (Green)</Portuguese>
+					<Korean>Carrier Lite [NAAF] (Green)</Korean>
+					<Chinesesimp>Carrier Lite [NAAF] (Green)</Chinesesimp>
+					<Japanese>Carrier Lite [NAAF] (Green)</Japanese>
+					<Turkish>Carrier Lite [NAAF] (Green)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrierH_NAAF_grn_F0">
+					<Original>Carrier Rig [NAAF] (Green)</Original>
+					<Chinese>Carrier Rig [NAAF] (Green)</Chinese>
+					<French>Carrier Rig [NAAF] (Green)</French>
+					<Spanish>Carrier Rig [NAAF] (Green)</Spanish>
+					<Italian>Carrier Rig [NAAF] (Green)</Italian>
+					<Polish>Carrier Rig [NAAF] (Green)</Polish>
+					<Russian>Carrier Rig [NAAF] (Green)</Russian>
+					<German>Carrier Rig [NAAF] (Green)</German>
+					<Czech>Carrier Rig [NAAF] (Green)</Czech>
+					<English>Carrier Rig [NAAF] (Green)</English>
+					<Portuguese>Carrier Rig [NAAF] (Green)</Portuguese>
+					<Korean>Carrier Rig [NAAF] (Green)</Korean>
+					<Chinesesimp>Carrier Rig [NAAF] (Green)</Chinesesimp>
+					<Japanese>Carrier Rig [NAAF] (Green)</Japanese>
+					<Turkish>Carrier Rig [NAAF] (Green)</Turkish>
+				</Key>
+			</Container>
 		</Container>
 		<Container name="UI_F">
             <Key ID="STR_A3_T_CfgMarkers_flag_Remnants">
