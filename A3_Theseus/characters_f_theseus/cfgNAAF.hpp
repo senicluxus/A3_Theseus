@@ -920,6 +920,9 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
         0.1     // Air
     };
 };
+
+/* Men (Story) */
+
 class Theseus_B_N_Story_Angelos_Lara: Theseus_B_N_Soldier_TL_F
 {
 	author = $STR_A3_A_Heliotrope;
@@ -996,5 +999,45 @@ class Theseus_B_N_Story_Dimitrious_Sallokis: Theseus_B_N_Helipilot_F
 	class EventHandlers: EventHandlers
 		{
 			init = "(_this select 0) setIdentity ""Theseus_NAAF_Dimitrious_Sallokis""";
+		};
+};
+class Theseus_B_N_Story_Averof_Abraham: Theseus_B_N_Soldier_GL_F
+{
+	author = $STR_A3_A_Heliotrope;
+	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_GL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = "Averof Abraham";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	weapons[] =
+	{
+		arifle_TRG21_GL_MRCO_F,
+		hgun_esd_01_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_TRG21_GL_MRCO_F,
+		hgun_esd_01_F,
+        DefaultManWeapons
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierIA2_oli,
+		H_I_Helmet_canvas_Green,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA2_oli,
+		H_I_Helmet_canvas_Green,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Averof_Abraham""";
 		};
 };

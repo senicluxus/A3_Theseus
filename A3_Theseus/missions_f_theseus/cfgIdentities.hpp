@@ -18,4 +18,13 @@ class CfgIdentities
 		pitch = 1.0;
 		speaker = "Male05GRE";
 	};
+	class Theseus_NAAF_Averof_Abraham
+	{
+		face = "GreekHead_A3_11";
+		glasses = "G_Aviator";
+		name = "Averof Abraham";
+		nameSound = "";
+		pitch = 1.0;
+		speaker = "Male02GRE";
+	};
 };
