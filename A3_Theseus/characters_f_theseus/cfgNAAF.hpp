@@ -1118,3 +1118,68 @@ class Theseus_B_N_Story_Zephirin_Prisciadis: Theseus_B_N_Soldier_AR_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+
+class Theseus_B_N_Story_Vangelis_Spiroglou: Theseus_B_N_Soldier_LAT_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Vangelis_Spiroglou.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Vangelis Spiroglou";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
+	backpack = B_TacticalPack_oli_BNLAT_F;
+	weapons[] =
+	{
+		arifle_TRG21_MRCO_Pointer_F,
+		launch_MRAWS_olive_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_TRG21_MRCO_Pointer_F,
+		launch_MRAWS_olive_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+		mag_2(9Rnd_45ACP_Mag),
+		MRAWS_HEAT55_F,
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+		mag_2(9Rnd_45ACP_Mag),
+		MRAWS_HEAT55_F,
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierH_NAAF_grn_F,
+		H_Booniehat_dgtl_hs,
+		G_Sport_Blackred,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierH_NAAF_grn_F,
+		H_Booniehat_dgtl_hs,
+		G_Sport_Blackred,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Vangelis_Spiroglou""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

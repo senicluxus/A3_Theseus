@@ -36,4 +36,13 @@ class CfgIdentities
 		pitch = 1.02;
 		speaker = "Male01ENGFRE";
 	};
+	class Theseus_NAAF_Vangelis_Spiroglou
+	{
+		face = "WhiteHead_20";
+		glasses = "G_Sport_Blackred";
+		name = "Vangelis Spiroglou";
+		nameSound = "";
+		pitch = 0.97;
+		speaker = "Male04GRE";
+	};
 };

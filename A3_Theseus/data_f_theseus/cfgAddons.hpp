@@ -32,6 +32,7 @@ class CfgAddons
                 A3_Theseus_Structures_F_Theseus_Military_Flags,
                 A3_Theseus_Supplies_F_Theseus,
                 A3_Theseus_Supplies_F_Theseus_Bags,
+                A3_Theseus_Weapons_F_Theseus,
                 A3_Theseus_UI_F_Theseus
 			};
 		};
