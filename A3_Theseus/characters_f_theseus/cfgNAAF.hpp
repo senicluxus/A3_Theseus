@@ -926,7 +926,7 @@ class Theseus_B_N_Soldier_unarmed_F: Theseus_B_N_Soldier_F
 class Theseus_B_N_Story_Angelos_Lara: Theseus_B_N_Soldier_TL_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_TL_F.jpg";
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Angelos_Lara.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Angelos Lara";
@@ -952,6 +952,7 @@ class Theseus_B_N_Story_Angelos_Lara: Theseus_B_N_Soldier_TL_F
 		H_I_Helmet_canvas_Green,
 		Goggles_grn_F,
 		G_Squares,
+		ItemGPS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -960,18 +961,23 @@ class Theseus_B_N_Story_Angelos_Lara: Theseus_B_N_Soldier_TL_F
 		H_I_Helmet_canvas_Green,
 		Goggles_grn_F,
 		G_Squares,
+		ItemGPS,
 		DefaultManLinkedItems
 	};
 
 	class EventHandlers: EventHandlers
 		{
-			init = "(_this select 0) setIdentity ""Theseus_NAAF_Angelos_Lara""";
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Angelos_Lara""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
 		};
 };
 class Theseus_B_N_Story_Dimitrious_Sallokis: Theseus_B_N_Helipilot_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Helipilot_F.jpg";
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Dimitrious_Sallokis.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Dimitrious Sallokis";
@@ -998,13 +1004,17 @@ class Theseus_B_N_Story_Dimitrious_Sallokis: Theseus_B_N_Helipilot_F
 	};
 	class EventHandlers: EventHandlers
 		{
-			init = "(_this select 0) setIdentity ""Theseus_NAAF_Dimitrious_Sallokis""";
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Dimitrious_Sallokis""; [_this select 0,'Icarus'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "Icarus";
 		};
 };
 class Theseus_B_N_Story_Averof_Abraham: Theseus_B_N_Soldier_GL_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Soldier_GL_F.jpg";
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Averof_Abraham.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = "Averof Abraham";
@@ -1027,6 +1037,7 @@ class Theseus_B_N_Story_Averof_Abraham: Theseus_B_N_Soldier_GL_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		NVGoggles_INDEP,
+		G_Aviator,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -1034,10 +1045,76 @@ class Theseus_B_N_Story_Averof_Abraham: Theseus_B_N_Soldier_GL_F
 		V_PlateCarrierIA2_oli,
 		H_I_Helmet_canvas_Green,
 		NVGoggles_INDEP,
+		G_Aviator,
 		DefaultManLinkedItems
 	};
 	class EventHandlers: EventHandlers
 		{
-			init = "(_this select 0) setIdentity ""Theseus_NAAF_Averof_Abraham""";
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Averof_Abraham""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};
+
+class Theseus_B_N_Story_Zephirin_Prisciadis: Theseus_B_N_Soldier_AR_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Zephirin_Prisciadis.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Zéphirin Prisciadis";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_Kitbag_sgg;
+	weapons[] =
+	{
+		LMG_Mk200_black_MRCO_LP_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		LMG_Mk200_black_MRCO_LP_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierH_NAAF_grn_F,
+		H_I_Helmet_canvas_Green,
+		NVGoggles_INDEP,
+		G_Shemag_red,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierH_NAAF_grn_F,
+		H_I_Helmet_canvas_Green,
+		NVGoggles_INDEP,
+		G_Shemag_red,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Zephirin_Prisciadis""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
 		};
 };

@@ -27,4 +27,13 @@ class CfgIdentities
 		pitch = 1.0;
 		speaker = "Male02GRE";
 	};
+	class Theseus_NAAF_Zephirin_Prisciadis
+	{
+		face = "TanoanHead_A3_07";
+		glasses = "G_Shemag_red";
+		name = "Zéphirin Prisciadis";
+		nameSound = "";
+		pitch = 1.1;
+		speaker = "Male01ENGFRE";
+	};
 };
