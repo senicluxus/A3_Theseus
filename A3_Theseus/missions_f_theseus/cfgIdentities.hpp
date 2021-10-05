@@ -33,7 +33,7 @@ class CfgIdentities
 		glasses = "G_Shemag_red";
 		name = "Zéphirin Prisciadis";
 		nameSound = "";
-		pitch = 1.1;
+		pitch = 1.02;
 		speaker = "Male01ENGFRE";
 	};
 };
