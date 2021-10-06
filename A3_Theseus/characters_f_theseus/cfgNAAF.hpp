@@ -1183,3 +1183,67 @@ class Theseus_B_N_Story_Vangelis_Spiroglou: Theseus_B_N_Soldier_LAT_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+
+class Theseus_B_N_Story_Geros_Riva: Theseus_B_N_soldier_M_F
+{
+	author = $STR_A3_A_Heliotrope;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Geros_Riva.jpg";
+    scope = public;
+    scopeCurator = public;
+	editorSubcategory = EdSubcat_Personnel_Story;
+	displayName = "Geros Riva";
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
+	backpack = B_Kitbag_sgg;
+	weapons[] =
+	{
+		srifle_DMR_02_Camo_LRCO_LP_BI_F,
+		hgun_ACPC2_black_FL_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		srifle_DMR_02_Camo_LRCO_LP_BI_F,
+		hgun_ACPC2_black_FL_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+		mag_6(10rnd_338_Mag),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(10rnd_338_Mag),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierH_NAAF_grn_F,
+		H_I_Helmet_canvas_Green,
+		G_Balaclava_light_blk_F,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierH_NAAF_grn_F,
+		H_I_Helmet_canvas_Green,
+		G_Balaclava_light_blk_F,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Geros_Riva""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

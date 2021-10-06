@@ -45,4 +45,13 @@ class CfgIdentities
 		pitch = 0.97;
 		speaker = "Male04GRE";
 	};
+	class Theseus_NAAF_Geros_Riva
+	{
+		face = "WhiteHead_11";
+		glasses = "G_Balaclava_light_blk_F";
+		name = "Geros Riva";
+		nameSound = "";
+		pitch = 1.0;
+		speaker = "Male02GRE";
+	};
 };
