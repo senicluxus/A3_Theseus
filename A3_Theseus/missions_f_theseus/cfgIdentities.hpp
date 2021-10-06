@@ -54,4 +54,12 @@ class CfgIdentities
 		pitch = 1.0;
 		speaker = "Male02GRE";
 	};
+	class Theseus_NAAF_Thanos_Gavras
+	{
+		name= "Colonel Gavras";
+		face= "GreekHead_A3_11";
+		glasses= "G_WirelessEarpiece_F";
+		speaker= "Male03GRE";
+		pitch= 0.94999999;
+	};
 };

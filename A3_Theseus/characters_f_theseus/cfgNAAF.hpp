@@ -932,6 +932,12 @@ class Theseus_B_N_Story_Angelos_Lara: Theseus_B_N_Soldier_TL_F
     displayName = "Angelos Lara";
 	editorSubcategory = EdSubcat_Personnel_Story;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_RadioBag_01_digi_F;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Angelos_Lara
+	};
 	weapons[] =
 	{
 		arifle_Mk20_GL_MRCO_pointer_F,
@@ -982,6 +988,11 @@ class Theseus_B_N_Story_Dimitrious_Sallokis: Theseus_B_N_Helipilot_F
     scopeCurator = public;
     displayName = "Dimitrious Sallokis";
 	editorSubcategory = EdSubcat_Personnel_Story;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Dimitrious_Sallokis
+	};
 	weapons[] =
 	{
 		arifle_TRG20_F,
@@ -1020,6 +1031,11 @@ class Theseus_B_N_Story_Averof_Abraham: Theseus_B_N_Soldier_GL_F
 	displayName = "Averof Abraham";
 	editorSubcategory = EdSubcat_Personnel_Story;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Averof_Abraham
+	};
 	weapons[] =
 	{
 		arifle_TRG21_GL_MRCO_F,
@@ -1067,6 +1083,11 @@ class Theseus_B_N_Story_Zephirin_Prisciadis: Theseus_B_N_Soldier_AR_F
 	editorSubcategory = EdSubcat_Personnel_Story;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
 	backpack = B_Kitbag_sgg;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Zephirin_Prisciadis
+	};
 	weapons[] =
 	{
 		LMG_Mk200_black_MRCO_LP_F,
@@ -1128,6 +1149,11 @@ class Theseus_B_N_Story_Vangelis_Spiroglou: Theseus_B_N_Soldier_LAT_F
 	editorSubcategory = EdSubcat_Personnel_Story;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
 	backpack = B_TacticalPack_oli_BNLAT_F;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Vangelis_Spiroglou
+	};
 	weapons[] =
 	{
 		arifle_TRG21_MRCO_Pointer_F,
@@ -1194,6 +1220,11 @@ class Theseus_B_N_Story_Geros_Riva: Theseus_B_N_soldier_M_F
 	displayName = "Geros Riva";
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
 	backpack = B_Kitbag_sgg;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Geros_Riva
+	};
 	weapons[] =
 	{
 		srifle_DMR_02_Camo_LRCO_LP_BI_F,
@@ -1245,5 +1276,40 @@ class Theseus_B_N_Story_Geros_Riva: Theseus_B_N_soldier_M_F
 	class AttributeValues
 		{
 			unitInsignia = "MinotaurSquad";
+		};
+};
+
+class Theseus_B_N_Story_Thanos_Gavras: Theseus_B_N_Officer_F
+{
+	author = $STR_A3_A_Heliotrope;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Thanos_Gavras.jpg";
+    scope = public;
+    scopeCurator = public;
+	editorSubcategory = EdSubcat_Personnel_Story;
+	displayName = "Colonel Gavras";
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Thanos_Gavras
+	};
+	weapons[] = {};
+	respawnWeapons[] = {};
+	magazines[] = {};
+	respawnMagazines[] = {};
+	linkedItems[] =
+	{
+		H_Beret_blk,
+		G_WirelessEarpiece_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_Beret_blk,
+		G_WirelessEarpiece_F,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Thanos_Gavras""";
 		};
 };
