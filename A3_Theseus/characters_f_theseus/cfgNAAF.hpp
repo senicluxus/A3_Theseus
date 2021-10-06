@@ -554,13 +554,13 @@ class Theseus_B_N_Officer_F: Theseus_B_N_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
 		mag_2(9Rnd_45ACP_Mag),
         SmokeShellYellow
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Red),
+		mag_4(30rnd_9x21_red_mag_v2),
 		mag_2(9Rnd_45ACP_Mag),
         SmokeShellYellow
 	};
