@@ -1313,3 +1313,72 @@ class Theseus_B_N_Story_Thanos_Gavras: Theseus_B_N_Officer_F
 			init = "(_this select 0) setIdentity ""Theseus_NAAF_Thanos_Gavras""";
 		};
 };
+
+class Theseus_B_N_Story_Petros_Katopodis: Theseus_B_N_Medic_F
+{
+	author = $STR_A3_A_Heliotrope;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Petros_Katopodis.jpg";
+    scope = public;
+    scopeCurator = public;
+	editorSubcategory = EdSubcat_Personnel_Story;
+	displayName = "Petros Katopodis";
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Petros_Katopodis
+	};
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_TacticalPack_oli_BNMedic_F;
+	weapons[] =
+	{
+		arifle_Mk20_MRCO_pointer_F,
+		hgun_ACPC2_black_FL_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_Mk20_MRCO_pointer_F,
+		hgun_ACPC2_black_FL_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_I_Helmet_canvas_Green,
+		G_Shemag_shades,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_I_Helmet_canvas_Green,
+		G_Shemag_shades,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Petros_Katopodis""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

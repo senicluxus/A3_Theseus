@@ -62,4 +62,13 @@ class CfgIdentities
 		speaker= "Male03GRE";
 		pitch= 0.94999999;
 	};
+	class Theseus_NAAF_Petros_Katopodis
+	{
+		face = "GreekHead_A3_13";
+		glasses = "G_Shemag_shades";
+		name = "Petros Katopodis";
+		nameSound = "";
+		pitch = 0.985;
+		speaker = "Male05GRE";
+	};
 };
