@@ -1382,3 +1382,74 @@ class Theseus_B_N_Story_Petros_Katopodis: Theseus_B_N_Medic_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+
+class Theseus_B_N_Story_Khrystiyanr_Mattocks: Theseus_B_N_Soldier_GL_F
+{
+	author = $STR_A3_A_Heliotrope;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Khrystiyanr_Mattocks.jpg";
+    scope = public;
+    scopeCurator = public;
+	editorSubcategory = EdSubcat_Personnel_Story;
+	displayName = "Khrystiyanr Mattocks";
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Khrystiyanr_Mattocks
+	};
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_FieldPack_oli;
+	weapons[] =
+	{
+		arifle_SPAR_01_GL_blk_MRCO_FL_FH_F,
+		hgun_ACPC2_FL_FH_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_SPAR_01_GL_blk_MRCO_FL_FH_F,
+		hgun_ACPC2_FL_FH_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+        mag_4(1Rnd_HE_Grenade_shell),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell,
+        1Rnd_Smoke_Grenade_shell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+        mag_4(1Rnd_HE_Grenade_shell),
+		mag_2(9Rnd_45ACP_Mag),
+        HandGrenade,
+        SmokeShell,
+        1Rnd_Smoke_Grenade_shell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_MK7_AAF_F,
+		G_Shemag_red,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_MK7_AAF_F,
+		G_Shemag_red,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Khrystiyanr_Mattocks""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

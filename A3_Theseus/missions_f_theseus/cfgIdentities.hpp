@@ -71,4 +71,13 @@ class CfgIdentities
 		pitch = 0.985;
 		speaker = "Male05GRE";
 	};
+	class Theseus_NAAF_Khrystiyanr_Mattocks
+	{
+		face = "WhiteHead_19";
+		glasses = "G_Shemag_red";
+		name = "Khrystiyanr Mattocks";
+		nameSound = "";
+		pitch = 0.99;
+		speaker = "Male04ENGB";
+	};
 };
