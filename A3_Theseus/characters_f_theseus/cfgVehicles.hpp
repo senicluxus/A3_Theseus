@@ -19,6 +19,7 @@ class CfgVehicles
     #include "cfgNAAF.hpp"      // NAAF
     #include "cfgBandits.hpp"   // Bandits
     #include "cfgRemnants.hpp"  // Remnants
+    #include "cfgCivil.hpp"      // Civilians
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

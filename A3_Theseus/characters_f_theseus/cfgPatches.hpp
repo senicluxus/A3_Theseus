@@ -33,6 +33,15 @@ class CfgPatches
             Theseus_B_N_Soldier_TL_F,
             Theseus_B_N_RadioOperator_F,
             Theseus_B_N_Soldier_unarmed_F,
+            Theseus_B_N_Story_Angelos_Lara,
+            Theseus_B_N_Story_Dimitrious_Sallokis,
+            Theseus_B_N_Story_Averof_Abraham,
+            Theseus_B_N_Story_Zephirin_Prisciadis,
+            Theseus_B_N_Story_Vangelis_Spiroglou,
+            Theseus_B_N_Story_Geros_Riva,
+            Theseus_B_N_Story_Thanos_Gavras,
+            Theseus_B_N_Story_Petros_Katopodis,
+            Theseus_B_N_Story_Khrystiyanr_Mattocks,
 
             /* From "cfgBandits.hpp" */
             Theseus_O_B_Looter_Pistol_F,
@@ -108,7 +117,10 @@ class CfgPatches
             Theseus_O_R_Soldier_7_F,
             Theseus_O_R_Soldier_8_F,
             Theseus_O_R_Crew_F,
-            Theseus_O_R_Soldier_Base_unarmed_F
+            Theseus_O_R_Soldier_Base_unarmed_F,
+
+            /* From "cfgCivil.hpp" */
+            Theseus_C_Story_Nikos_Panagopoulos
         };
 		weapons[] = {/* Automated */};
 	};
