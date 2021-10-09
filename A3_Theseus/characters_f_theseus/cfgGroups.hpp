@@ -617,4 +617,39 @@ class CfgGroups
 			};
 		};
 	};
+	class Indep
+	{
+		class Theseus_IND_B_F
+		{
+			name = $STR_A3_T_CfgFactionClasses_OPF_B_F0;
+			class Infantry
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class I_B_BanditGang
+				{
+					name = $STR_A3_T_CfgGroups_East_OPF_B_F_Infantry_O_B_BanditGang0;
+					side = TGuerrila;
+					faction = Theseus_IND_B_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Theseus_I_B_Looter_Pistol_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TGuerrila,Theseus_I_B_Looter_SG_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TGuerrila,Theseus_I_B_Looter_Rifle_F,CORPORAL,-5,-5);
+				};
+				class I_B_CriminalGang
+				{
+					name = $STR_A3_T_CfgGroups_East_OPF_B_F_Infantry_O_B_CriminalGang0;
+					side = TGuerrila;
+					faction = Theseus_IND_B_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Theseus_I_B_Criminal_SMG_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TGuerrila,Theseus_I_B_Hunter_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TGuerrila,Theseus_I_B_Criminal_SG_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TGuerrila,Theseus_I_B_Looter_SMG_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TGuerrila,Theseus_I_B_Looter_Rifle_F,CORPORAL,-10,-10);
+					GROUP_UNIT(5,TGuerrila,Theseus_I_B_Looter_SG_F,PRIVATE,15,-15);
+					GROUP_UNIT(6,TGuerrila,Theseus_I_B_Looter_Pistol_F,PRIVATE,-15,-15);
+				};
+			};
+		};
+	};
 };
