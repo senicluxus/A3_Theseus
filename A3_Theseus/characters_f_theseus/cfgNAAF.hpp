@@ -1453,3 +1453,74 @@ class Theseus_B_N_Story_Khrystiyanr_Mattocks: Theseus_B_N_Soldier_GL_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+
+class Theseus_B_N_Story_Aurum_Panganiban: Theseus_B_N_Soldier_LAT_F
+{
+	author = $STR_A3_A_Heliotrope;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Aurum_Panganiban.jpg";
+    scope = public;
+    scopeCurator = public;
+	editorSubcategory = EdSubcat_Personnel_Story;
+	displayName = "Aurum Panganiban";
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Aurum_Panganiban
+	};
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_TacticalPack_oli_BNLAT_F;
+	weapons[] =
+	{
+		arifle_SPAR_03_blk_NVS_LP_BI_F,
+		hgun_G17_black_FH_F,
+		launch_MRAWS_olive_rail_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_SPAR_03_blk_NVS_LP_BI_F,
+		hgun_G17_black_FH_F,
+		launch_MRAWS_olive_rail_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_5(20rnd_762x51_Mag),
+		mag_2(17Rnd_9x21_Mag),
+		MRAWS_HEAT55_F,
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_5(20rnd_762x51_Mag),
+		mag_2(17Rnd_9x21_Mag),
+		MRAWS_HEAT55_F,
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_MK7_AAF_F,
+		G_Cigarette,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_MK7_AAF_F,
+		G_Cigarette,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Aurum_Panganiban""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

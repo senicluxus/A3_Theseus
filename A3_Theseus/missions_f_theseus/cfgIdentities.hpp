@@ -80,4 +80,13 @@ class CfgIdentities
 		pitch = 0.99;
 		speaker = "Male04ENGB";
 	};
+	class Theseus_NAAF_Aurum_Panganiban
+	{
+		face = "TanoanHead_A3_09";
+		glasses = "G_Cigarette";
+		name = "Aurum Panganiban";
+		nameSound = "";
+		pitch = 0.9723;
+		speaker = "Male02GRE";
+	};
 };
