@@ -1524,3 +1524,66 @@ class Theseus_B_N_Story_Aurum_Panganiban: Theseus_B_N_Soldier_LAT_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+class Theseus_B_N_Story_Deimos_SeburonAiakounis: Theseus_B_N_Soldier_F
+{
+	author = $STR_A3_A_Heliotrope;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Deimos_SeburonAiakounis.jpg";
+    scope = public;
+    scopeCurator = public;
+	editorSubcategory = EdSubcat_Personnel_Story;
+	displayName = "Deimos Seburon-Aiakounis";
+	cost = 100000;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Deimos_SeburonAiakounis
+	};
+	weapons[] =
+	{
+		arifle_TRG21_MRCO_FL_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_TRG21_MRCO_FL_F,
+		hgun_G17_black_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30rnd_556x45_Stanag),
+		mag_2(17Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30rnd_556x45_Stanag),
+		mag_2(17Rnd_9x21_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_I_Helmet_canvas_Green,
+		G_Shemag_white,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_I_Helmet_canvas_Green,
+		G_Shemag_white,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Deimos_SeburonAiakounis""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

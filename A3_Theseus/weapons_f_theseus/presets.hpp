@@ -112,6 +112,25 @@ class arifle_TRG21_MRCO_Pointer_F: arifle_TRG21_F
     };
 };
 
+// TRG-21 5.56 mm + MRCO + Flashlight
+class arifle_TRG21_MRCO_FL_F: arifle_TRG21_F
+{
+    author = $STR_A3_A_Heliotrope;
+    class linkedItems
+    {
+        class LinkedItemsOptic
+        {
+            slot = CowsSlot;
+            item = optic_MRCO;
+        };
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
 // MAR-10 .338 + MOS + IR Laser Pointer + Bipod (Black) [AAF]
 class srifle_DMR_02_Camo_LRCO_LP_BI_F: srifle_DMR_02_Camo_F
 {

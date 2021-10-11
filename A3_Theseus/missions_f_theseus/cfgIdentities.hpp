@@ -89,4 +89,13 @@ class CfgIdentities
 		pitch = 0.9723;
 		speaker = "Male02GRE";
 	};
+	class Theseus_NAAF_Deimos_SeburonAiakounis
+	{
+		face = "RussianHead_4";
+		glasses = "G_Shemag_white";
+		name = "Deimos Seburon-Aiakounis";
+		nameSound = "";
+		pitch = 1.0;
+		speaker = "Male01ENGB";
+	};
 };
