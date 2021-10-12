@@ -1259,6 +1259,7 @@ class Theseus_B_N_Story_Geros_Riva: Theseus_B_N_soldier_M_F
 		H_I_Helmet_canvas_Green,
 		G_Balaclava_light_blk_F,
 		Goggles_grn_F,
+		optic_NVS,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -1267,6 +1268,7 @@ class Theseus_B_N_Story_Geros_Riva: Theseus_B_N_soldier_M_F
 		H_I_Helmet_canvas_Green,
 		G_Balaclava_light_blk_F,
 		Goggles_grn_F,
+		optic_NVS,
 		DefaultManLinkedItems
 	};
 	class EventHandlers: EventHandlers
