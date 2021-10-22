@@ -1589,3 +1589,131 @@ class Theseus_B_N_Story_Deimos_SeburonAiakounis: Theseus_B_N_Soldier_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+class Theseus_B_N_Story_Aaron_Windelen: Theseus_B_N_Soldier_LAT_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Aaron_Windelen.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Aaron Windelen";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
+	backpack = B_TacticalPack_oli_BNLAT_F;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Aaron_Windelen
+	};
+	weapons[] =
+	{
+		arifle_SPAR_01_blk_F_ACO_grn_Pointer_Snds_F,
+		launch_MRAWS_green_rail_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_SPAR_01_blk_F_ACO_grn_Pointer_Snds_F,
+		launch_MRAWS_green_rail_F,
+		hgun_G17_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+		mag_2(17Rnd_9x21_Mag),
+		MRAWS_HEAT55_F,
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30rnd_556x45_Stanag),
+		mag_2(17Rnd_9x21_Mag),
+		MRAWS_HEAT55_F,
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_MK7_AAF_F,
+		G_Shemag_oli,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_MK7_AAF_F,
+		G_Shemag_oli,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Aaron_Windelen""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};
+class Theseus_B_N_Story_Ioannis_Bravos: Theseus_B_N_Soldier_AR_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Ioannis_Bravos.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Ioannis Bravos";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_AssaultPackSpec_rgr;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Ioannis_Bravos
+	};
+	weapons[] =
+	{
+		LMG_Mk200_black_MRCO_LP_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		LMG_Mk200_black_MRCO_LP_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_TacChestRig_oli_F,
+		H_MK7_AAF_F,
+		G_Aviator,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacChestRig_oli_F,
+		H_MK7_AAF_F,
+		G_Aviator,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Ioannis_Bravos""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

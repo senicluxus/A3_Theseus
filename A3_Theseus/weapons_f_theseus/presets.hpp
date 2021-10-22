@@ -69,6 +69,30 @@ class arifle_SPAR_01_GL_blk_MRCO_FL_FH_F: arifle_SPAR_01_GL_blk_F
     };
 };
 
+// SPAR-16 5.56 mm + ACO (Green) + IR Pointer + Suppressor
+class arifle_SPAR_01_blk_F_ACO_grn_Pointer_Snds_F: arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_Heliotrope;
+    class linkedItems
+    {
+        class LinkedItemsOptic
+        {
+            slot = CowsSlot;
+            item = optic_ACO_grn;
+        };
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+    };
+};
+
 // SPAR-17 7.62 mm + NVS + Bipod
 class arifle_SPAR_03_blk_NVS_LP_BI_F: arifle_SPAR_03_blk_F
 {

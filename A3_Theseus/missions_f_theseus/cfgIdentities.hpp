@@ -98,4 +98,22 @@ class CfgIdentities
 		pitch = 1.0;
 		speaker = "Male01ENGB";
 	};
+	class Theseus_NAAF_Aaron_Windelen
+	{
+		face = "WhiteHead_16";
+		glasses = "G_Shemag_oli";
+		name = "Aaron Windelen";
+		nameSound = "";
+		pitch = 1.0;
+		speaker = "Male10ENG";
+	};
+	class Theseus_NAAF_Ioannis_Bravos
+	{
+		face = "WhiteHead_04";
+		glasses = "G_Aviator";
+		name = "Ioannis Bravos";
+		nameSound = "";
+		pitch = 1.0;
+		speaker = "Male03ENG";
+	};
 };
