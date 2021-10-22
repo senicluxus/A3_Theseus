@@ -52,3 +52,14 @@ class B_TacticalPack_oli_BNLAT_F: B_TacticalPack_oli
 		mag_xx(MRAWS_HE_F,3);
 	};
 };
+
+class B_Kitbag_sgg_BNLAT_F: B_Kitbag_sgg
+{
+	author = $STR_A3_A_Heliotrope;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(MRAWS_HEAT55_F,2);
+		mag_xx(MRAWS_HE_F,3);
+	};
+};

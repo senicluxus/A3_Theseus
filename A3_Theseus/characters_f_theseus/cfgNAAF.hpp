@@ -1597,7 +1597,7 @@ class Theseus_B_N_Story_Aaron_Windelen: Theseus_B_N_Soldier_LAT_F
 	displayName = "Aaron Windelen";
 	editorSubcategory = EdSubcat_Personnel_Story;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
-	backpack = B_TacticalPack_oli_BNLAT_F;
+	backpack = B_Kitbag_sgg_BNLAT_F;
 	identityTypes[] =
 	{
 		LanguageGRE_F,
