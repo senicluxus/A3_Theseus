@@ -1717,3 +1717,62 @@ class Theseus_B_N_Story_Ioannis_Bravos: Theseus_B_N_Soldier_AR_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+class Theseus_B_N_Story_Leonidas_Major: Theseus_B_N_Soldier_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Leonidas_Major.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Leonidas Major";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F;
+	backpack = B_TacticalPack_rgr;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Leonidas_Major
+	};
+	weapons[] =
+	{
+		arifle_SPAR_03_blk_MRCO_BI_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_SPAR_03_blk_MRCO_BI_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(20rnd_762x51_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(20rnd_762x51_Mag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_cap_oli_hs,
+		G_Shemag_tactical,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_cap_oli_hs,
+		G_Shemag_tactical,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Leonidas_Major""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};

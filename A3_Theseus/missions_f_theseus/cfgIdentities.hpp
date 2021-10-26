@@ -116,4 +116,13 @@ class CfgIdentities
 		pitch = 1.0;
 		speaker = "Male03ENG";
 	};
+	class Theseus_NAAF_Leonidas_Major
+	{
+		face = "Mavros";
+		glasses = "G_Shemag_tactical";
+		name = "Leonidas Major";
+		nameSound = "";
+		pitch = 0.995;
+		speaker = "Male06GRE";
+	};
 };

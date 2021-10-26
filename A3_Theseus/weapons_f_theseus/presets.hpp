@@ -117,6 +117,25 @@ class arifle_SPAR_03_blk_NVS_LP_BI_F: arifle_SPAR_03_blk_F
 	};
 };
 
+// SPAR-17 7.62 mm + MRCO + Bipod
+class arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
+{
+	author = $STR_A3_A_Heliotrope;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_03_F_blk;
+		};
+	};
+};
+
 // TRG-21 5.56 mm + MRCO + IR Laser Pointer
 class arifle_TRG21_MRCO_Pointer_F: arifle_TRG21_F
 {
