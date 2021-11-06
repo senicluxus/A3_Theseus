@@ -232,6 +232,23 @@
 					<Japanese>Combat Fatigues [NAAF]</Japanese>
 					<Turkish>Combat Fatigues [NAAF]</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_des_F0">
+					<Original>Combat Fatigues [NAAF] (Desert)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Desert)</Chinese>
+					<French>Combat Fatigues [NAAF] (Desert)</French>
+					<Spanish>Combat Fatigues [NAAF] (Desert)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Desert)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Desert)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Desert)</Russian>
+					<German>Combat Fatigues [NAAF] (Desert)</German>
+					<Czech>Combat Fatigues [NAAF] (Desert)</Czech>
+					<English>Combat Fatigues [NAAF] (Desert)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Desert)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Desert)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Desert)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Desert)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Desert)</Turkish>
+				</Key>
 				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F0">
 					<Original>Combat Fatigues [NAAF] (Rolled-up)</Original>
 					<Chinese>Combat Fatigues [NAAF] (Rolled-up)</Chinese>
@@ -248,6 +265,23 @@
 					<Chinesesimp>Combat Fatigues [NAAF] (Rolled-up)</Chinesesimp>
 					<Japanese>Combat Fatigues [NAAF] (Rolled-up)</Japanese>
 					<Turkish>Combat Fatigues [NAAF] (Rolled-up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_des_F0">
+					<Original>Combat Fatigues [NAAF] (Rolled-up, Desert)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Rolled-up, Desert)</Chinese>
+					<French>Combat Fatigues [NAAF] (Rolled-up, Desert)</French>
+					<Spanish>Combat Fatigues [NAAF] (Rolled-up, Desert)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Rolled-up, Desert)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Rolled-up, Desert)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Rolled-up, Desert)</Russian>
+					<German>Combat Fatigues [NAAF] (Rolled-up, Desert)</German>
+					<Czech>Combat Fatigues [NAAF] (Rolled-up, Desert)</Czech>
+					<English>Combat Fatigues [NAAF] (Rolled-up, Desert)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Rolled-up, Desert, Desert)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Rolled-up, Desert)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Rolled-up, Desert)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Rolled-up, Desert)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Rolled-up, Desert)</Turkish>
 				</Key>
 				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Officer_dgtl_F0">
 					<Original>Combat Fatigues [NAAF] (Officer)</Original>
@@ -303,8 +337,26 @@
 					<Turkish>Carrier Rig [NAAF] (Green)</Turkish>
 				</Key>
 			</Container>
-		</Container>
-		<Container name="UI_F">
+			<Container name="Headgear">
+				<Key ID="STR_A3_R_CfgWeapons_H_mk7_des0">
+					<Original>Service Helmet (Desert Digi)</Original>
+					<Chinese>Service Helmet (Desert Digi)</Chinese>
+					<French>Service Helmet (Desert Digi)</French>
+					<Spanish>Service Helmet (Desert Digi)</Spanish>
+					<Italian>Service Helmet (Desert Digi)</Italian>
+					<Polish>Service Helmet (Desert Digi)</Polish>
+					<Russian>Service Helmet (Desert Digi)</Russian>
+					<German>Service Helmet (Desert Digi)</German>
+					<Czech>Service Helmet (Desert Digi)</Czech>
+					<English>Service Helmet (Desert Digi)</English>
+					<Portuguese>Service Helmet (Desert Digi)</Portuguese>
+					<Korean>Service Helmet (Desert Digi)</Korean>
+					<Chinesesimp>Service Helmet (Desert Digi)</Chinesesimp>
+					<Japanese>Service Helmet (Desert Digi)</Japanese>
+					<Turkish>Service Helmet (Desert Digi)</Turkish>
+				</Key>
+			</Container>
+			<Container name="UI_F">
             <Key ID="STR_A3_T_CfgMarkers_flag_Remnants">
                 <Original>Remnants</Original>
                 <Chinese>Remnants</Chinese>
