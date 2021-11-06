@@ -10,4 +10,6 @@ class CfgVehicles
 	UNIFORM_HOLDER(Theseus_U_B_NAAF_Uniform_01_dgtl_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_dgtl_F0);
 	UNIFORM_HOLDER(Theseus_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F0);
 	UNIFORM_HOLDER(Theseus_U_B_NAAF_Officer_dgtl_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Officer_dgtl_F0);
+    UNIFORM_HOLDER(Theseus_U_B_NAAF_Uniform_01_des_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_des_F0);
+	UNIFORM_HOLDER(Theseus_U_B_NAAF_Uniform_01_shortsleeve_des_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_des_F0);
 };
