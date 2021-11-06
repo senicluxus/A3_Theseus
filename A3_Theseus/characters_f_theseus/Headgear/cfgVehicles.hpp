@@ -4,7 +4,7 @@
 		scope = public; \
 		scopeCurator = public; \
 		displayName = ##b##; \
-		author = $STR_A3_A_BranFlakes; \
+		author = $STR_A3_A_Heliotrope; \
 		editorCategory = EdCat_Equipment; \
 		editorSubcategory = ##c##; \
 		vehicleClass = ItemsHeadgear; \
@@ -21,4 +21,5 @@ class CfgVehicles
 	
 	// Arma 3 Theseus
 	HEADGEAR_HOLDER(H_MK7_digi_des_F,$STR_A3_T_CfgWeapons_H_mk7_digi_des0,EdSubcat_Helmets)
+	//HEADGEAR_HOLDER(H_I_Helmet_digi_des,$STR_A3_T_CfgWeapons_H_I_Helmet_digi_des0,EdSubcat_Helmets)
 };

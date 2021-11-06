@@ -372,6 +372,23 @@
 					<Japanese>Service Helmet (Desert Digi)</Japanese>
 					<Turkish>Service Helmet (Desert Digi)</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_H_I_Helmet_digi_des0">
+					<Original>Modular Helmet (Desert Digi)</Original>
+					<Chinese>Modular Helmet (Desert Digi)</Chinese>
+					<French>Modular Helmet (Desert Digi)</French>
+					<Spanish>Modular Helmet (Desert Digi)</Spanish>
+					<Italian>Modular Helmet (Desert Digi)</Italian>
+					<Polish>Modular Helmet (Desert Digi)</Polish>
+					<Russian>Modular Helmet (Desert Digi)</Russian>
+					<German>Modular Helmet (Desert Digi)</German>
+					<Czech>Modular Helmet (Desert Digi)</Czech>
+					<English>Modular Helmet (Desert Digi)</English>
+					<Portuguese>Modular Helmet (Desert Digi)</Portuguese>
+					<Korean>Modular Helmet (Desert Digi)</Korean>
+					<Chinesesimp>Modular Helmet (Desert Digi)</Chinesesimp>
+					<Japanese>Modular Helmet (Desert Digi)</Japanese>
+					<Turkish>Modular Helmet (Desert Digi)</Turkish>
+				</Key>
 			</Container>
 			<Container name="UI_F">
             <Key ID="STR_A3_T_CfgMarkers_flag_Remnants">

@@ -1,6 +1,7 @@
 class CfgWeapons
 {
     // Arma 3
+    class H_HelmetIA;
 
     // Arma 3 Aegis + Atlas
 	class H_MK7_Base_F;
@@ -21,4 +22,11 @@ class CfgWeapons
          	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip_d_co.paa"
         };
     };
+    /*class H_I_Helmet_digi_des: H_HelmetIA
+    {
+        author = $STR_A3_A_BranFlakes;
+		displayName = $STR_A3_T_CfgWeapons_H_I_Helmet_digi_des0;
+		//picture = "Picture Path";
+		hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Headgear\Data\Headgear_helmet_digi_des_CO.paa"};
+    };*/
 };
