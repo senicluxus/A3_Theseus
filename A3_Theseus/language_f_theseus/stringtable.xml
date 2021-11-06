@@ -300,6 +300,23 @@
 					<Japanese>Combat Fatigues [NAAF] (Officer)</Japanese>
 					<Turkish>Combat Fatigues [NAAF] (Officer)</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Officer_des_F0">
+					<Original>Combat Fatigues [NAAF] (Officer, Desert)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Officer, Desert)</Chinese>
+					<French>Combat Fatigues [NAAF] (Officer, Desert)</French>
+					<Spanish>Combat Fatigues [NAAF] (Officer, Desert)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Officer, Desert)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Officer, Desert)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Officer, Desert)</Russian>
+					<German>Combat Fatigues [NAAF] (Officer, Desert)</German>
+					<Czech>Combat Fatigues [NAAF] (Officer, Desert)</Czech>
+					<English>Combat Fatigues [NAAF] (Officer, Desert)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Officer, Desert)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Officer, Desert)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Officer, Desert)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Officer, Desert)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Officer, Desert)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrierL_NAAF_grn_F0">
