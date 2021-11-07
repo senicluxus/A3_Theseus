@@ -83,7 +83,7 @@ class Theseus_U_B_NAAF_Officer_dgtl_F: Uniform_Base
 		mass = 40;
 	};
 };
-/*class Theseus_U_B_NAAF_Officer_des_F: Uniform_Base
+class Theseus_U_B_NAAF_Officer_des_F: Uniform_Base
 {
 	author = $STR_A3_A_Heliotrope;
 	scope = public;
@@ -99,4 +99,4 @@ class Theseus_U_B_NAAF_Officer_dgtl_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 40;
 	};
-}; */
+};

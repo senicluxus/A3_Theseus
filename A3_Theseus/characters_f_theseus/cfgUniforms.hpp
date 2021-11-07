@@ -44,7 +44,7 @@ class Theseus_B_NAAF_Uniform_01_shortsleeve_des_F: I_Soldier_lite_F
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_des_F;
 	hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa"};
 };
-/*class Theseus_B_NAAF_Officer_des_F: I_officer_F
+class Theseus_B_NAAF_Officer_des_F: I_officer_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -60,4 +60,4 @@ class Theseus_B_NAAF_Uniform_01_shortsleeve_des_F: I_Soldier_lite_F
 		"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_officer_spc_des_co.paa",
 		"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa"
 	};
-};*/
+};
