@@ -73,6 +73,23 @@
 					<Japanese>NAAF</Japanese>
 					<Turkish>NAAF</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgFactionClasses_BLU_N_D_F0">
+					<Original>NAAF (Arid)</Original>
+					<Chinese>NAAF (Arid)</Chinese>
+					<French>NAAF (Arid)</French>
+					<Spanish>NAAF (Arid)</Spanish>
+					<Italian>NAAF (Arid)</Italian>
+					<Polish>NAAF (Arid)</Polish>
+					<Russian>NAAF (Arid)</Russian>
+					<German>NAAF (Arid)</German>
+					<Czech>NAAF (Arid)</Czech>
+					<English>NAAF (Arid)</English>
+					<Portuguese>NAAF (Arid)</Portuguese>
+					<Korean>NAAF (Arid)</Korean>
+					<Chinesesimp>NAAF (Arid)</Chinesesimp>
+					<Japanese>NAAF (Arid)</Japanese>
+					<Turkish>NAAF (Arid)</Turkish>
+				</Key>
 				<Key ID="STR_A3_T_CfgFactionClasses_OPF_B_F0">
 					<Original>Bandits</Original>
 					<Chinese>Bandits</Chinese>
@@ -316,6 +333,40 @@
 					<Chinesesimp>Combat Fatigues [NAAF] (Officer, Desert)</Chinesesimp>
 					<Japanese>Combat Fatigues [NAAF] (Officer, Desert)</Japanese>
 					<Turkish>Combat Fatigues [NAAF] (Officer, Desert)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_CombatUniform_tshirt_des_F0">
+					<Original>Combat Fatigues [NAAF] (Tee, Desert)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Tee, Desert)</Chinese>
+					<French>Combat Fatigues [NAAF] (Tee, Desert)</French>
+					<Spanish>Combat Fatigues [NAAF] (Tee, Desert)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Tee, Desert)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Tee, Desert)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Tee, Desert)</Russian>
+					<German>Combat Fatigues [NAAF] (Tee, Desert)</German>
+					<Czech>Combat Fatigues [NAAF] (Tee, Desert)</Czech>
+					<English>Combat Fatigues [NAAF] (Tee, Desert)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Tee, Desert)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Tee, Desert)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Tee, Desert)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Tee, Desert)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Tee, Desert)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_tanktop_des_F0">
+					<Original>Combat Fatigues [NAAF] (Tanktop, Desert)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Tanktop, Desert)</Chinese>
+					<French>Combat Fatigues [NAAF] (Tanktop, Desert)</French>
+					<Spanish>Combat Fatigues [NAAF] (Tanktop, Desert)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Tanktop, Desert)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Tanktop, Desert)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Tanktop, Desert)</Russian>
+					<German>Combat Fatigues [NAAF] (Tanktop, Desert)</German>
+					<Czech>Combat Fatigues [NAAF] (Tanktop, Desert)</Czech>
+					<English>Combat Fatigues [NAAF] (Tanktop, Desert)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Tanktop, Desert)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Tanktop, Desert)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Tanktop, Desert)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Tanktop, Desert)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Tanktop, Desert)</Turkish>
 				</Key>
 			</Container>
 			<Container name="Vests">

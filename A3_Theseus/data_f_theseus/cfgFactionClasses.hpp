@@ -1,8 +1,16 @@
 class CfgFactionClasses
 {
-	class Theseus_BLU_N_F										 // NAA
+	class Theseus_BLU_N_F										 // NAAF
 	{
 		displayName = $STR_A3_T_CfgFactionClasses_BLU_N_F0;
+		priority = 3;
+		side = TWest;
+		icon = "\A3\Data_F\CfgFactionClasses_CIV_CA.paa";
+		flag = "\A3\Data_F\Flags\flag_FIA_CO.paa";
+	};
+	class Theseus_BLU_N_D_F										 // NAAF Arid
+	{
+		displayName = $STR_A3_T_CfgFactionClasses_BLU_N_D_F0;
 		priority = 3;
 		side = TWest;
 		icon = "\A3\Data_F\CfgFactionClasses_CIV_CA.paa";

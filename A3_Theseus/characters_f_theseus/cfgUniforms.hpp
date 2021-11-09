@@ -61,3 +61,46 @@ class Theseus_B_NAAF_Officer_des_F: I_officer_F
 		"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa"
 	};
 };
+class Theseus_B_NAAF_CombatUniform_tshirt_des: I_Support_MG_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Theseus_U_B_NAAF_CombatUniform_tshirt_des;
+	hiddenSelections[] = 
+	{
+		camo1,
+		camo2,
+		camo3
+	};
+	hiddenSelectionsTextures[] = 
+	{
+		"\A3\Characters_F_Bootcamp\Guerrilla\Data\c_cloth1_kabeiroi_co.paa",
+		"\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa"
+	};
+};
+class Theseus_B_NAAF_Uniform_01_tanktop_des_F: I_E_Uniform_01_tanktop_F
+{
+	author = $STR_A3_A_BranFlakes;
+    scope = protected;
+	model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d";
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_tanktop_des_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_TankTop_arid_CO.paa",
+        "\A3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa"
+    };
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+		{
+			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1.rvmat",
+			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_injury.rvmat",
+			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_injury.rvmat",
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat",
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
+			INJURY_PERSONALITY_MATERIALS
+		};
+	};
+};

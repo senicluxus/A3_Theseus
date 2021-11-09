@@ -69,6 +69,63 @@ class arifle_SPAR_01_GL_blk_MRCO_FL_FH_F: arifle_SPAR_01_GL_blk_F
     };
 };
 
+// SPAR-16 GL 5.56 mm + MRCO + Flashlight
+class arifle_SPAR_01_GL_blk_MRCO_FL_F: arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_Heliotrope;
+    class linkedItems
+    {
+        class LinkedItemsOptic
+        {
+            slot = CowsSlot;
+            item = optic_MRCO;
+        };
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+
+// SPAR-16 5.56 mm + ACO (Green) + Flashlight
+class arifle_SPAR_01_blk_F_ACO_grn_FL_F: arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_Heliotrope;
+    class linkedItems
+    {
+        class LinkedItemsOptic
+        {
+            slot = CowsSlot;
+            item = optic_ACO_grn;
+        };
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
+// SPAR-16 5.56 mm + MRCO + Flashlight
+class arifle_SPAR_01_blk_F_MRCO_FL_F: arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_Heliotrope;
+    class linkedItems
+    {
+        class LinkedItemsOptic
+        {
+            slot = CowsSlot;
+            item = optic_MRCO;
+        };
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
 // SPAR-16 5.56 mm + ACO (Green) + IR Pointer + Suppressor
 class arifle_SPAR_01_blk_F_ACO_grn_Pointer_Snds_F: arifle_SPAR_01_blk_F
 {
@@ -127,6 +184,30 @@ class arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
 		{
 			slot = CowsSlot;
 			item = optic_MRCO;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_03_F_blk;
+		};
+	};
+};
+
+// SPAR-17 7.62 mm + Kahlia + Flashlight + Bipod
+class arifle_SPAR_03_blk_KHS_FL_BI_F: arifle_SPAR_03_blk_F
+{
+	author = $STR_A3_A_Heliotrope;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_KHS_blk;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
 		};
 		class LinkedItemsUnder
 		{
