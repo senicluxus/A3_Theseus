@@ -1810,6 +1810,67 @@ class Theseus_B_N_Story_Leonidas_Major: Theseus_B_N_Soldier_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+class Theseus_B_N_Story_Acastus_Galanis: Theseus_B_N_Soldier_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Acastus_Galanis.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Acastus Galanis";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
+	backpack = B_AssaultPack_dgtl;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Acastus_Galanis
+	};
+	weapons[] =
+	{
+		sgun_M4_FL_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		sgun_M4_FL_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_5(8rnd_12gauge_pellets),
+		mag_4(8rnd_12gauge_slug),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_5(8rnd_12gauge_pellets),
+		mag_4(8rnd_12gauge_slug),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_HelmetHBK_olive_chops_F,
+		G_Combat,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_HelmetHBK_olive_chops_F,
+		G_Combat,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Acastus_Galanis""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};
 
 /* NAAF (Arid) */
 class Theseus_B_N_D_Soldier_Base_F: Theseus_B_N_Man_Base_F

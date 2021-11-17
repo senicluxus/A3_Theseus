@@ -125,4 +125,13 @@ class CfgIdentities
 		pitch = 0.995;
 		speaker = "Male06GRE";
 	};
+	class Theseus_NAAF_Acastus_Galanis
+	{
+		face = "WhiteHead_06";
+		glasses = "G_Combat";
+		name = "Acastus Galanis";
+		nameSound = "";
+		pitch = 0.997;
+		speaker = "Male04GRE";
+	};
 };

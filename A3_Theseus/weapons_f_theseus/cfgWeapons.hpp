@@ -9,6 +9,7 @@ class cfgWeapons
     class hgun_ACPC2_black_F;
     class hgun_ACPC2_F;
     class hgun_G17_black_F;
+    class sgun_M4_F;
 
     // Presets
     #include "presets.hpp"

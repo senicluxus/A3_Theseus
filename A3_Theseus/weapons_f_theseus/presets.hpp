@@ -278,3 +278,17 @@ class srifle_DMR_02_Camo_LRCO_LP_BI_F: srifle_DMR_02_Camo_F
 		};
 	};
 };
+
+// M4 SSAS 12G + Pistol Flashlight
+class sgun_M4_FL_F: sgun_M4_F
+{
+	author = $STR_A3_A_Heliotrope;
+	class LinkedItems
+	{
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+	};
+};
