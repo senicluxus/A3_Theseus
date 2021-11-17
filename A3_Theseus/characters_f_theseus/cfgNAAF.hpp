@@ -1853,6 +1853,7 @@ class Theseus_B_N_Story_Acastus_Galanis: Theseus_B_N_Soldier_F
 		V_PlateCarrierL_NAAF_grn_F,
 		H_HelmetHBK_olive_chops_F,
 		G_Combat,
+		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -1860,6 +1861,7 @@ class Theseus_B_N_Story_Acastus_Galanis: Theseus_B_N_Soldier_F
 		V_PlateCarrierL_NAAF_grn_F,
 		H_HelmetHBK_olive_chops_F,
 		G_Combat,
+		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	class EventHandlers: EventHandlers
