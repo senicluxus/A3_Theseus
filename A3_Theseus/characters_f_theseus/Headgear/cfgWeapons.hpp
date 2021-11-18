@@ -12,7 +12,7 @@ class CfgWeapons
         author = $STR_A3_A_BranFlakes;
         scope = public;
         displayName = $STR_A3_T_CfgWeapons_H_mk7_digi_des0;
-        picture = "A3_Theseus\characters_f_theseus\Headgear\Data\UI\H_MK7_digi_des_F_ca.paa";
+        picture = "\A3_Theseus\characters_f_theseus\Headgear\Data\UI\H_MK7_digi_des_ca.paa";
         model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_Mk7_F";
         hiddenSelections[] = { "Camo","Camo2","Camo3" };
         hiddenSelectionsTextures[] =
