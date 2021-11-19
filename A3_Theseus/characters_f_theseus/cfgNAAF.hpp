@@ -134,9 +134,9 @@ class Theseus_B_N_Soldier_AR_F: Theseus_B_N_Soldier_Base_F
 class Theseus_B_N_Crew_F: Theseus_B_N_Soldier_Base_F
 {
 	author = $STR_A3_A_Heliotrope;
-	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Helipilot_F.jpg";
-    scope = protected;
-    scopeCurator = private;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Crew_F.jpg";
+    scope = public;
+    scopeCurator = public;
 	displayName = $STR_B_crew_F0;
 	role = Crewman;
 	cost = 90000;
