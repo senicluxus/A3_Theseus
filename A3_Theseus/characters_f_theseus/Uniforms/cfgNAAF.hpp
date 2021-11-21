@@ -122,7 +122,6 @@ class Theseus_U_B_NAAF_CombatUniform_tshirt_des: Uniform_Base
 	author=$STR_A3_A_Heliotrope;
 	scope = public;
 	displayName = $STR_A3_T_CfgWeapons_U_B_NAAF_CombatUniform_tshirt_des_F0;
-	picture = "\A3\characters_f_beta\data\ui\icon_U_IR_CombatUniform_rucamo_ca.paa";
 	picture = "\A3_Theseus\characters_f_theseus\Uniforms\Data\UI\Theseus_U_B_NAAF_CombatUniform_tshirt_des_ca.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};

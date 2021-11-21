@@ -1875,7 +1875,7 @@ class Theseus_B_N_Story_Acastus_Galanis: Theseus_B_N_Soldier_F
 };
 class Theseus_B_N_Story_Kyveli_Kallaki: Theseus_B_N_Soldier_AR_F
 {
-	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Kyveli_Kallaki.jpg";
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Kyveli_Kallaki.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = "Kyveli Kallaki";
@@ -1940,7 +1940,7 @@ class Theseus_B_N_D_Soldier_Base_F: Theseus_B_N_Man_Base_F
 };
 class Theseus_B_N_D_Soldier_A_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -1987,7 +1987,7 @@ class Theseus_B_N_D_Soldier_A_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Soldier_AR_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2054,7 +2054,7 @@ class Theseus_B_N_D_Soldier_AR_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Crew_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2101,7 +2101,7 @@ class Theseus_B_N_D_Crew_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Medic_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2167,7 +2167,7 @@ class Theseus_B_N_D_Medic_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Engineer_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2226,7 +2226,7 @@ class Theseus_B_N_D_Engineer_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Soldier_GL_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2276,7 +2276,7 @@ class Theseus_B_N_D_Soldier_GL_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Helipilot_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2333,7 +2333,7 @@ class Theseus_B_N_D_Helipilot_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Helicrew_F: Theseus_B_N_D_Helipilot_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2388,7 +2388,7 @@ class Theseus_B_N_D_Helicrew_F: Theseus_B_N_D_Helipilot_F
 };
 class Theseus_B_N_D_soldier_M_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2434,7 +2434,7 @@ class Theseus_B_N_D_soldier_M_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Officer_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2496,7 +2496,7 @@ class Theseus_B_N_D_Officer_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Soldier_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2541,7 +2541,7 @@ class Theseus_B_N_D_Soldier_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Soldier_LAT_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2614,7 +2614,7 @@ class Theseus_B_N_D_Soldier_LAT_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Soldier_SL_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2671,7 +2671,7 @@ class Theseus_B_N_D_Soldier_SL_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_Soldier_TL_F: Theseus_B_N_D_Soldier_Base_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
@@ -2734,7 +2734,7 @@ class Theseus_B_N_D_Soldier_TL_F: Theseus_B_N_D_Soldier_Base_F
 };
 class Theseus_B_N_D_RadioOperator_F: Theseus_B_N_D_Soldier_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_D_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_shortsleeve_des_F;
@@ -2778,7 +2778,7 @@ class Theseus_B_N_D_RadioOperator_F: Theseus_B_N_D_Soldier_F
 };
 class Theseus_B_N_D_Soldier_universal_F: Theseus_B_N_D_Soldier_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
 	{
 		class Default
@@ -2800,7 +2800,7 @@ class Theseus_B_N_D_Soldier_universal_F: Theseus_B_N_D_Soldier_F
 };
 class Theseus_B_N_D_Soldier_unarmed_F: Theseus_B_N_D_Soldier_F
 {
-	author = $STR_A3_A_Heliotrope;
+	author = $STR_A3_A_Ravenholme;
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
 	weapons[] = {DefaultManWeapons};
 	respawnWeapons[] = {DefaultManWeapons};
