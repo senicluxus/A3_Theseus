@@ -134,4 +134,13 @@ class CfgIdentities
 		pitch = 0.997;
 		speaker = "Male04GRE";
 	};
+	class Theseus_NAAF_Kyveli_Kallaki
+	{
+		face = "GreekHead_A3_09";
+		glasses = "";
+		name = "Kyveli Kallaki";
+		nameSound = "";
+		pitch = 1.025;
+		speaker = "Male01GRE";
+	};
 };

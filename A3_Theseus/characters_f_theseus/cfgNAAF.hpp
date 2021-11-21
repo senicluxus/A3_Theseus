@@ -1873,6 +1873,64 @@ class Theseus_B_N_Story_Acastus_Galanis: Theseus_B_N_Soldier_F
 			unitInsignia = "MinotaurSquad";
 		};
 };
+class Theseus_B_N_Story_Kyveli_Kallaki: Theseus_B_N_Soldier_AR_F
+{
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Kyveli_Kallaki.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = "Kyveli Kallaki";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Theseus_NAAF_Kyveli_Kallaki
+	};
+	weapons[] =
+	{
+		LMG_Mk200_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		LMG_Mk200_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_3(200Rnd_65x39_cased_Box),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_MK7_AAF_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierL_NAAF_grn_F,
+		H_MK7_AAF_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Theseus_NAAF_Kyveli_Kallaki""; [_this select 0,'MinotaurSquad'] call bis_fnc_setUnitInsignia;";
+		};
+	class AttributeValues
+		{
+			unitInsignia = "MinotaurSquad";
+		};
+};
 
 /* NAAF (Arid) */
 class Theseus_B_N_D_Soldier_Base_F: Theseus_B_N_Man_Base_F
