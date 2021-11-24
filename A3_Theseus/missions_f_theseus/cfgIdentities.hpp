@@ -102,7 +102,7 @@ class CfgIdentities
 	{
 		face = "WhiteHead_16";
 		glasses = "G_Shemag_oli";
-		name = "Aaron Windelen";
+		name = "Leandos Papadaki";
 		nameSound = "";
 		pitch = 1.0;
 		speaker = "Male10ENG";

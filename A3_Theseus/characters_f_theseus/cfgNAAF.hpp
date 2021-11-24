@@ -1626,9 +1626,9 @@ class Theseus_B_N_Story_Deimos_SeburonAiakounis: Theseus_B_N_Soldier_F
 class Theseus_B_N_Story_Aaron_Windelen: Theseus_B_N_Soldier_LAT_F
 {
 	editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Aaron_Windelen.jpg";
-  	scope = public;
-  	scopeCurator = public;
-	displayName = "Aaron Windelen";
+  	scope = protected;
+  	scopeCurator = protected;
+	displayName = "Leandos Papadaki";
 	editorSubcategory = EdSubcat_Personnel_Story;
 	uniformClass = Theseus_U_B_NAAF_Uniform_01_dgtl_F;
 	backpack = B_Kitbag_sgg_BNLAT_F;
@@ -1691,6 +1691,11 @@ class Theseus_B_N_Story_Aaron_Windelen: Theseus_B_N_Soldier_LAT_F
 		{
 			unitInsignia = "MinotaurSquad";
 		};
+};
+class Theseus_B_N_Story_Leandos_Papadaki: Theseus_B_N_Story_Aaron_Windelen
+{
+	scope = public;
+  	scopeCurator = public;
 };
 class Theseus_B_N_Story_Ioannis_Bravos: Theseus_B_N_Soldier_AR_F
 {
