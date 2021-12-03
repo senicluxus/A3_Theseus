@@ -677,7 +677,8 @@ class Theseus_B_N_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kab_INDP_CO.paa",
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_kuz_INDP_CO.paa",
 	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa"
+	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_chassis_INDP_CO.paa",
+	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
 class Theseus_B_N_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
