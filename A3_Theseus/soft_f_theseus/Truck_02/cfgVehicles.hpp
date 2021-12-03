@@ -2,8 +2,8 @@ class CfgVehicles
 {
     /* Bases */
     class Truck_02_MRL_base_F;
-	class Truck_02_cargo_base_F;
-	class Truck_02_flatbed_base_F;
+	class Truck_02_cargo_base_lxWS;
+	class Truck_02_flatbed_base_lxWS;
 
     /* Factions */
 	class I_Truck_02_covered_F;
