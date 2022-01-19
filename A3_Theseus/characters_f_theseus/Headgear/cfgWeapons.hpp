@@ -29,4 +29,13 @@ class CfgWeapons
 		picture = "A3_Theseus\characters_f_theseus\Headgear\Data\UI\H_I_Helmet_digi_des_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Headgear\Data\Headgear_helmet_digi_des_CO.paa"};
     };
+    class lxWS_H_bmask_camo01;
+    class lxWS_H_bmask_Minotaur: lxWS_H_bmask_camo01
+    {
+        author = $STR_A3_A_BranFlakes;
+        picture = "\lxws\characters_f_lxws\headgear\pmc\data\ui\icon_mask_black_ca.paa";
+        displayName = "Ballistic Mask (Minotaur)";
+        hiddenSelectionsTextures[] = {"\A3_Theseus\Characters_F_Theseus\Headgear\Data\Mask_Minotaur_CO.paa"};
+        hiddenSelections[] = {"camo"};
+    };
 };
