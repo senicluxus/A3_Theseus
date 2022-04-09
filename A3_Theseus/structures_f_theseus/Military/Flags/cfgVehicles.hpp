@@ -89,13 +89,13 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_NAAF_F.jpg";
+		//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Flag_Minotaur_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_T_CfgVehicles_Flag_Bandits_F0;
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture '\A3_Theseus\Data_F_Theseus\Flags\flag_Minotaur_co.paa.paa'";
+			init = "(_this select 0) setFlagTexture '\A3_Theseus\Data_F_Theseus\Flags\flag_Minotaur_co.paa'";
 		};
 	};
 };
