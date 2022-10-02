@@ -104,3 +104,22 @@ class Theseus_B_NAAF_Uniform_01_tanktop_des_F: I_E_Uniform_01_tanktop_F
 		};
 	};
 };
+class I_Tura_HeavyGunner_lxWS;
+class Theseus_U_NAAF_Bandit_lxWS: I_Tura_HeavyGunner_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Theseus_U_B_NAAF_Bandit_lxWS;
+	hiddenSelections[] = 
+	{
+		camo,
+		camo1,
+		camo2
+	};
+	hiddenSelectionsTextures[] =
+    {
+    	"a3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa",
+		"lxws\characters_f_lxws\uniform\djellaba\data\lxWS_djellaba_shirt_green_co.paa",
+		"lxWS\characters_1_f_lxws\uniform\data\lxWS_djellaba_pants_brown2_co.paa"
+    };
+};

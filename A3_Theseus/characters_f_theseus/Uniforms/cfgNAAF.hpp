@@ -134,3 +134,20 @@ class Theseus_U_B_NAAF_CombatUniform_tshirt_des: Uniform_Base
 		mass=40;
 	};
 };
+class Theseus_U_B_NAAF_Bandit_lxWS: Uniform_Base
+{
+	author=$STR_A3_A_BranFlakes;
+	scope = public;
+	displayName = $STR_A3_T_CfgWeapons_U_B_NAAF_Bandit_lxWS_F0;
+	picture = "\A3_Theseus\characters_f_theseus\Uniforms\Data\UI\Theseus_U_B_NAAF_CombatUniform_tshirt_des_ca.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = Theseus_U_NAAF_Bandit_lxWS;
+		containerClass = Supply40;
+		mass=40;
+	};
+};
