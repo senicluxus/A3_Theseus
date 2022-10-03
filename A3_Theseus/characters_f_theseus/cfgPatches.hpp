@@ -118,6 +118,7 @@ class CfgPatches
             Theseus_O_R_Soldier_8_F,
             Theseus_O_R_Crew_F,
             Theseus_O_R_Soldier_Base_unarmed_F,
+            Theseus_O_R_Soldier_UAV_lxWS,
 
             /* From "cfgCivil.hpp" */
             Theseus_C_Story_Nikos_Panagopoulos

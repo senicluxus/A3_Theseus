@@ -283,6 +283,23 @@
 					<Japanese>Combat Fatigues [NAAF] (Bandit Cover)</Japanese>
 					<Turkish>Combat Fatigues [NAAF] (Bandit Cover)</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Bandit_alt_lxWS_F0">
+					<Original>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Original>
+					<Chinese>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Chinese>
+					<French>Combat Fatigues [NAAF] (Bandit Cover, Alt)</French>
+					<Spanish>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Spanish>
+					<Italian>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Italian>
+					<Polish>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Polish>
+					<Russian>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Russian>
+					<German>Combat Fatigues [NAAF] (Bandit Cover, Alt)</German>
+					<Czech>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Czech>
+					<English>Combat Fatigues [NAAF] (Bandit Cover, Alt)</English>
+					<Portuguese>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Portuguese>
+					<Korean>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Korean>
+					<Chinesesimp>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Chinesesimp>
+					<Japanese>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Japanese>
+					<Turkish>Combat Fatigues [NAAF] (Bandit Cover, Alt)</Turkish>
+				</Key>
 				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F0">
 					<Original>Combat Fatigues [NAAF] (Rolled-up)</Original>
 					<Chinese>Combat Fatigues [NAAF] (Rolled-up)</Chinese>
@@ -385,6 +402,23 @@
 					<Japanese>Combat Fatigues [NAAF] (Tank Top, Desert)</Japanese>
 					<Turkish>Combat Fatigues [NAAF] (Tank Top, Desert)</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_U_O_R_Bandit_Rags_lxWS_F0">
+					<Original>Bandit Rags (Remnant)</Original>
+					<Chinese>Bandit Rags (Remnant)</Chinese>
+					<French>Bandit Rags (Remnant)</French>
+					<Spanish>Bandit Rags (Remnant)</Spanish>
+					<Italian>Bandit Rags (Remnant)</Italian>
+					<Polish>Bandit Rags (Remnant)</Polish>
+					<Russian>Bandit Rags (Remnant)</Russian>
+					<German>Bandit Rags (Remnant)</German>
+					<Czech>Bandit Rags (Remnant)</Czech>
+					<English>Bandit Rags (Remnant)</English>
+					<Portuguese>Bandit Rags (Remnant)</Portuguese>
+					<Korean>Bandit Rags (Remnant)</Korean>
+					<Chinesesimp>Bandit Rags (Remnant)</Chinesesimp>
+					<Japanese>Bandit Rags (Remnant)</Japanese>
+					<Turkish>Bandit Rags (Remnant)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrierL_NAAF_grn_F0">
@@ -421,6 +455,23 @@
 					<Japanese>Carrier Rig [NAAF] (Green)</Japanese>
 					<Turkish>Carrier Rig [NAAF] (Green)</Turkish>
 				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrier2_alt_NAAF_grn_F0">
+					<Original>Carrier Alt Rig [NAAF] (Green)</Original>
+					<Chinese>Carrier Alt Rig [NAAF] (Green)</Chinese>
+					<French>Carrier Alt Rig [NAAF] (Green)</French>
+					<Spanish>Carrier Alt Rig [NAAF] (Green)</Spanish>
+					<Italian>Carrier Alt Rig [NAAF] (Green)</Italian>
+					<Polish>Carrier Alt Rig [NAAF] (Green)</Polish>
+					<Russian>Carrier Alt Rig [NAAF] (Green)</Russian>
+					<German>Carrier Alt Rig [NAAF] (Green)</German>
+					<Czech>Carrier Alt Rig [NAAF] (Green)</Czech>
+					<English>Carrier Alt Rig [NAAF] (Green)</English>
+					<Portuguese>Carrier Alt Rig [NAAF] (Green)</Portuguese>
+					<Korean>Carrier Alt Rig [NAAF] (Green)</Korean>
+					<Chinesesimp>Carrier Alt Rig [NAAF] (Green)</Chinesesimp>
+					<Japanese>Carrier Alt Rig [NAAF] (Green)</Japanese>
+					<Turkish>Carrier Alt Rig [NAAF] (Green)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Headgear">
 				<Key ID="STR_A3_T_CfgWeapons_H_mk7_digi_des0">
@@ -456,6 +507,40 @@
 					<Chinesesimp>Modular Helmet (Desert Digi)</Chinesesimp>
 					<Japanese>Modular Helmet (Desert Digi)</Japanese>
 					<Turkish>Modular Helmet (Desert Digi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_H_I_Helmet_digi_des0">
+					<Original>Modular Helmet (Desert Digi)</Original>
+					<Chinese>Modular Helmet (Desert Digi)</Chinese>
+					<French>Modular Helmet (Desert Digi)</French>
+					<Spanish>Modular Helmet (Desert Digi)</Spanish>
+					<Italian>Modular Helmet (Desert Digi)</Italian>
+					<Polish>Modular Helmet (Desert Digi)</Polish>
+					<Russian>Modular Helmet (Desert Digi)</Russian>
+					<German>Modular Helmet (Desert Digi)</German>
+					<Czech>Modular Helmet (Desert Digi)</Czech>
+					<English>Modular Helmet (Desert Digi)</English>
+					<Portuguese>Modular Helmet (Desert Digi)</Portuguese>
+					<Korean>Modular Helmet (Desert Digi)</Korean>
+					<Chinesesimp>Modular Helmet (Desert Digi)</Chinesesimp>
+					<Japanese>Modular Helmet (Desert Digi)</Japanese>
+					<Turkish>Modular Helmet (Desert Digi)</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgWeapons_H_turban_02_mask_Minotaur_lxws0">
+					<Original>Ballistic Mask (Minotaur, Turban)</Original>
+					<Chinese>Ballistic Mask (Minotaur, Turban)</Chinese>
+					<French>Ballistic Mask (Minotaur, Turban)</French>
+					<Spanish>Ballistic Mask (Minotaur, Turban)</Spanish>
+					<Italian>Ballistic Mask (Minotaur, Turban)</Italian>
+					<Polish>Ballistic Mask (Minotaur, Turban)</Polish>
+					<Russian>Ballistic Mask (Minotaur, Turban)</Russian>
+					<German>Ballistic Mask (Minotaur, Turban)</German>
+					<Czech>Ballistic Mask (Minotaur, Turban)</Czech>
+					<English>Ballistic Mask (Minotaur, Turban)</English>
+					<Portuguese>Ballistic Mask (Minotaur, Turban)</Portuguese>
+					<Korean>Ballistic Mask (Minotaur, Turban)</Korean>
+					<Chinesesimp>Ballistic Mask (Minotaur, Turban)</Chinesesimp>
+					<Japanese>Ballistic Mask (Minotaur, Turban)</Japanese>
+					<Turkish>Ballistic Mask (Minotaur, Turban)</Turkish>
 				</Key>
 			</Container>
 			<Container name="UI_F">

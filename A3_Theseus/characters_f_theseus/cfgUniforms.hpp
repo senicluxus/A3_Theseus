@@ -123,3 +123,39 @@ class Theseus_U_NAAF_Bandit_lxWS: I_Tura_HeavyGunner_lxWS
 		"lxWS\characters_1_f_lxws\uniform\data\lxWS_djellaba_pants_brown2_co.paa"
     };
 };
+class Theseus_U_NAAF_Bandit_alt_lxWS: I_Tura_HeavyGunner_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Theseus_U_B_NAAF_Bandit_alt_lxWS;
+	hiddenSelections[] = 
+	{
+		camo,
+		camo1,
+		camo2
+	};
+	hiddenSelectionsTextures[] =
+    {
+    	"a3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_des_co.paa",
+		"lxws\characters_f_lxws\uniform\djellaba\data\lxWS_djellaba_shirt_sand_co.paa",
+		"lxWS\characters_1_f_lxws\uniform\data\lxWS_djellaba_pants_brown2_co.paa"
+    };
+};
+class Theseus_O_R_Bandit_Rags_lxWS: I_Tura_HeavyGunner_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Theseus_U_O_R_Bandit_Rags_lxWS;
+	hiddenSelections[] = 
+	{
+		camo,
+		camo1,
+		camo2
+	};
+	hiddenSelectionsTextures[] =
+    {
+    	"a3_Theseus\Characters_F_Theseus\Uniforms\Data\theseus_ia_soldier_01_clothing_co.paa",
+		"lxws\characters_f_lxws\uniform\djellaba\data\lxWS_djellaba_shirt_green_co.paa",
+		"lxWS\characters_1_f_lxws\uniform\data\lxWS_djellaba_pants_brown2_co.paa"
+    };
+};

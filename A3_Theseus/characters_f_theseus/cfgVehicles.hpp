@@ -18,6 +18,7 @@ class CfgVehicles
     class I_Support_MG_F;
     class I_E_Uniform_01_tanktop_F;
     class I_officer_F: I_Soldier_base_F{};
+    class I_Tura_Soldier_UAV_lxWS;
     #include "cfgNAAF.hpp"      // NAAF
     #include "cfgBandits.hpp"   // Bandits
     #include "cfgRemnants.hpp"  // Remnants

@@ -8,4 +8,5 @@ class CfgWeapons
 
     /* Arsenal */
 	#include "cfgNAAF.hpp"  // NAAF
+    #include "cfgRemnant.hpp" // Remnant
 };

@@ -42,9 +42,9 @@ class CfgWeapons
     class Theseus_H_turban_02_mask_Minotaur_lxws: H_turban_02_mask_black_lxws
     {
         author = $STR_A3_A_BranFlakes;
-        displayName = "Ballistic Mask (Turban, Minotaur)";
+        displayName = $STR_A3_T_CfgWeapons_H_turban_02_mask_Minotaur_lxws0;
         picture = "\lxws\characters_f_lxws\headgear\pmc\data\ui\icon_mask_black_ca.paa";
-        hiddenSelectionsTextures[] = {"lxws\characters_f_lxws\headgear\turban\data\turban_02_black_co.paa","\A3_Theseus\Characters_F_Theseus\Headgear\Data\Mask_Minotaur_CO.paa"};
+        hiddenSelectionsTextures[] = {"lxws\characters_f_lxws\headgear\turban\data\turban_02_sand_co.paa","\A3_Theseus\Characters_F_Theseus\Headgear\Data\Mask_Minotaur_CO.paa"};
         
     };
 };

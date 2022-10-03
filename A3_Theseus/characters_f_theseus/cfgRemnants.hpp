@@ -530,3 +530,50 @@ class Theseus_O_R_Soldier_Base_unarmed_F: Theseus_O_R_Soldier_1_F
         0.1     // Air
     };
 };
+class Theseus_O_R_Soldier_UAV_lxWS: Theseus_O_R_Soldier_1_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_O_R_Soldier_UAV_lxWS.jpg";
+	displayName = "UAV Operator (IED Drone)";
+	role = SpecialOperative;
+	uavHacker = true;
+	backpack = O_G_UAV_02_IED_backpack_lxWS;
+	weapons[] = 
+	{
+		arifle_Katiba_C_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] = 
+	{
+		arifle_Katiba_C_F,
+		DefaultManWeapons
+	};
+	magazines[] = 
+	{
+		mag_6(30Rnd_65x39_caseless_green),
+		mag_4(1Rnd_40mm_HE_lxWS),
+		mag_4(1Rnd_58mm_AT_lxWS)
+	};
+	respawnMagazines[] = 
+	{
+		mag_6(30Rnd_65x39_caseless_green),
+		mag_4(1Rnd_40mm_HE_lxWS),
+		mag_4(1Rnd_58mm_AT_lxWS)
+	};
+	linkedItems[] = 
+	{
+		G_Balaclava_oli,
+		Aegis_V_ChestRigEast_grn_F,
+		H_HelmetIA,
+		O_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] = 
+	{
+		G_Balaclava_oli,
+		Aegis_V_ChestRigEast_grn_F,
+		H_HelmetIA,
+		O_UAVTerminal,
+		DefaultManGuerillaLinkedItems
+	};
+};

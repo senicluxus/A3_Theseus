@@ -15,5 +15,7 @@ class CfgVehicles
     UNIFORM_HOLDER(Theseus_U_B_NAAF_Uniform_01_tanktop_des_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_tanktop_des_F0);
     UNIFORM_HOLDER(Theseus_U_B_NAAF_Officer_des_F,$STR_A3_T_CfgWeapons_U_B_NAAF_Officer_des_F0);
     UNIFORM_HOLDER(Theseus_U_B_NAAF_CombatUniform_tshirt_des,$STR_A3_T_CfgWeapons_U_B_NAAF_CombatUniform_tshirt_des_F0);
-    
+    UNIFORM_HOLDER(Theseus_U_B_NAAF_Bandit_lxWS,$STR_A3_T_CfgWeapons_U_B_NAAF_Bandit_lxWS_F0);
+    UNIFORM_HOLDER(Theseus_U_B_NAAF_Bandit_alt_lxWS,$STR_A3_T_CfgWeapons_U_B_NAAF_Bandit_alt_lxWS_F0);
+    UNIFORM_HOLDER(Theseus_U_O_R_Bandit_Rags_lxWS,$STR_A3_T_CfgWeapons_U_O_R_Bandit_Rags_lxWS_F0);
 };
