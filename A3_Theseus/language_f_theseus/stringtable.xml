@@ -543,6 +543,42 @@
 					<Turkish>Ballistic Mask (Minotaur, Turban)</Turkish>
 				</Key>
 			</Container>
+			<Container name="Facewear">
+				<Key ID="STR_A3_T_CfgGlasses_G_Armband_Remnant_F0">
+					<Original>Armband [Remnant]</Original>
+					<Chinese>Armband [Remnant]</Chinese>
+					<French>Armband [Remnant]</French>
+					<Spanish>Armband [Remnant]</Spanish>
+					<Italian>Armband [Remnant]</Italian>
+					<Polish>Armband [Remnant]</Polish>
+					<Russian>Armband [Remnant]</Russian>
+					<German>Armband [Remnant]</German>
+					<Czech>Armband [Remnant]</Czech>
+					<English>Armband [Remnant]</English>
+					<Portuguese>Armband [Remnant]</Portuguese>
+					<Korean>Armband [Remnant]</Korean>
+					<Chinesesimp>Armband [Remnant]</Chinesesimp>
+					<Japanese>Armband [Remnant]</Japanese>
+					<Turkish>Armband [Remnant]</Turkish>
+				</Key>
+				<Key ID="STR_A3_T_CfgGlasses_G_Armband_Remnant_alt_F0">
+					<Original>Armband [Remnant] (Alt)</Original>
+					<Chinese>Armband [Remnant] (Alt)</Chinese>
+					<French>Armband [Remnant] (Alt)</French>
+					<Spanish>Armband [Remnant] (Alt)</Spanish>
+					<Italian>Armband [Remnant] (Alt)</Italian>
+					<Polish>Armband [Remnant] (Alt)</Polish>
+					<Russian>Armband [Remnant] (Alt)</Russian>
+					<German>Armband [Remnant] (Alt)</German>
+					<Czech>Armband [Remnant] (Alt)</Czech>
+					<English>Armband [Remnant] (Alt)</English>
+					<Portuguese>Armband [Remnant] (Alt)</Portuguese>
+					<Korean>Armband [Remnant] (Alt)</Korean>
+					<Chinesesimp>Armband [Remnant] (Alt)</Chinesesimp>
+					<Japanese>Armband [Remnant] (Alt)</Japanese>
+					<Turkish>Armband [Remnant] (Alt)</Turkish>
+				</Key>	
+			</Container>
 			<Container name="UI_F">
             <Key ID="STR_A3_T_CfgMarkers_flag_Remnants">
                 <Original>Remnants</Original>
